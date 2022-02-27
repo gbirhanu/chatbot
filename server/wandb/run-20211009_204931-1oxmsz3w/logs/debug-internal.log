@@ -1,0 +1,80 @@
+2021-10-09 20:49:35,377 INFO    MainThread:11792 [internal.py:wandb_internal():86] W&B internal server running at pid: 11792, started at: 2021-10-09 20:49:35.367021
+2021-10-09 20:49:35,380 INFO    WriterThread:11792 [datastore.py:open_for_write():77] open: C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\run-1oxmsz3w.wandb
+2021-10-09 20:49:35,381 DEBUG   HandlerThread:11792 [handler.py:handle_request():126] handle_request: check_version
+2021-10-09 20:49:35,386 DEBUG   SenderThread:11792 [sender.py:send():185] send: header
+2021-10-09 20:49:35,386 DEBUG   SenderThread:11792 [sender.py:send_request():199] send_request: check_version
+2021-10-09 20:49:35,421 DEBUG   SenderThread:11792 [sender.py:send():185] send: run
+2021-10-09 20:49:35,448 DEBUG   SenderThread:11792 [git.py:repo():33] git repository is invalid
+2021-10-09 20:49:38,770 ERROR   SenderThread:11792 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000276D4C90AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000276D4C90AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\internal_api.py", line 132, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000276D4C90AC0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-10-09 20:50:05,428 DEBUG   HandlerThread:11792 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-09 20:50:05,429 INFO    HandlerThread:11792 [handler.py:finish():683] shutting down handler
+2021-10-09 20:50:05,645 INFO    WriterThread:11792 [datastore.py:close():281] close: C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\run-1oxmsz3w.wandb
+2021-10-09 20:50:55,945 INFO    SenderThread:11792 [dir_watcher.py:__init__():169] watching files in: C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\files
+2021-10-09 20:50:55,946 INFO    SenderThread:11792 [sender.py:_start_run_threads():746] run started: 1oxmsz3w with start time 1633801771
+2021-10-09 20:50:55,946 INFO    SenderThread:11792 [sender.py:finish():986] shutting down sender
+2021-10-09 20:50:55,946 INFO    SenderThread:11792 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-09 20:50:56,957 INFO    SenderThread:11792 [dir_watcher.py:finish():313] scan: C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\files
+2021-10-09 20:50:56,958 INFO    SenderThread:11792 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\files\config.yaml config.yaml
+2021-10-09 20:50:56,963 INFO    SenderThread:11792 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-09 20:50:56,963 INFO    SenderThread:11792 [file_pusher.py:join():182] waiting for file pusher
+2021-10-09 20:50:58,953 INFO    Thread-14 :11792 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211009_204931-1oxmsz3w\files\config.yaml
+2021-10-09 20:51:00,220 INFO    MainThread:11792 [internal.py:handle_exit():76] Internal process exited

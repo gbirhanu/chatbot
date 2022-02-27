@@ -1,0 +1,138 @@
+2021-10-11 16:08:05,917 INFO    MainThread:7108 [internal.py:wandb_internal():86] W&B internal server running at pid: 7108, started at: 2021-10-11 16:08:05.906965
+2021-10-11 16:08:05,921 INFO    WriterThread:7108 [datastore.py:open_for_write():77] open: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\run-3m5l70dx.wandb
+2021-10-11 16:08:05,922 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: check_version
+2021-10-11 16:08:05,926 DEBUG   SenderThread:7108 [sender.py:send():185] send: header
+2021-10-11 16:08:05,927 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: check_version
+2021-10-11 16:08:06,524 DEBUG   SenderThread:7108 [sender.py:send():185] send: run
+2021-10-11 16:08:06,539 DEBUG   SenderThread:7108 [git.py:repo():33] git repository is invalid
+2021-10-11 16:08:07,082 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: run_start
+2021-10-11 16:08:07,138 DEBUG   HandlerThread:7108 [meta.py:__init__():40] meta init
+2021-10-11 16:08:07,140 DEBUG   HandlerThread:7108 [meta.py:__init__():54] meta init done
+2021-10-11 16:08:07,147 DEBUG   HandlerThread:7108 [meta.py:probe():211] probe
+2021-10-11 16:08:07,154 DEBUG   HandlerThread:7108 [git.py:repo():33] git repository is invalid
+2021-10-11 16:08:07,154 DEBUG   HandlerThread:7108 [meta.py:_save_pip():58] save pip
+2021-10-11 16:08:07,158 DEBUG   HandlerThread:7108 [meta.py:_save_pip():72] save pip done
+2021-10-11 16:08:07,158 DEBUG   HandlerThread:7108 [meta.py:_save_conda():79] save conda
+2021-10-11 16:08:07,167 ERROR   HandlerThread:7108 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-11 16:08:07,170 INFO    SenderThread:7108 [dir_watcher.py:__init__():169] watching files in: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files
+2021-10-11 16:08:07,172 DEBUG   HandlerThread:7108 [meta.py:_save_conda():87] save conda done
+2021-10-11 16:08:07,172 INFO    SenderThread:7108 [sender.py:_start_run_threads():746] run started: 3m5l70dx with start time 1633957682
+2021-10-11 16:08:07,172 DEBUG   HandlerThread:7108 [meta.py:probe():249] probe done
+2021-10-11 16:08:07,173 DEBUG   SenderThread:7108 [sender.py:send():185] send: summary
+2021-10-11 16:08:07,175 INFO    SenderThread:7108 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-11 16:08:07,197 DEBUG   SenderThread:7108 [sender.py:send():185] send: files
+2021-10-11 16:08:07,197 INFO    SenderThread:7108 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-11 16:08:07,258 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:08:07,258 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:08:08,183 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\wandb-metadata.json
+2021-10-11 16:08:08,183 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\wandb-summary.json
+2021-10-11 16:08:08,184 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\conda-environment.yaml
+2021-10-11 16:08:08,185 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\output.log
+2021-10-11 16:08:08,185 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\requirements.txt
+2021-10-11 16:08:08,679 INFO    Thread-15 :7108 [upload_job.py:push():137] Uploaded file C:\Users\GB\AppData\Local\Temp\tmp_jm0z6b6wandb\2c1rw68r-wandb-metadata.json
+2021-10-11 16:08:10,209 INFO    Thread-13 :7108 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\output.log
+2021-10-11 16:08:22,894 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:08:22,894 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:08:38,326 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:08:38,530 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:08:38,530 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:08:54,157 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:08:54,157 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:09:09,764 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:09:09,764 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:09:11,960 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:09:25,332 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:09:25,332 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:09:40,952 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:09:40,952 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:09:45,541 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:09:56,521 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:09:56,521 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:10:12,273 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:10:12,273 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:10:19,052 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:10:27,884 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:10:27,884 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:10:43,493 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:10:43,493 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:10:52,214 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:10:59,087 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:10:59,087 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:11:14,720 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:11:14,720 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:11:25,508 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:11:30,290 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:11:30,290 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:11:45,965 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:11:45,965 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:11:58,873 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:12:01,593 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:12:01,593 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:12:17,212 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:12:17,213 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:12:32,466 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:12:32,820 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:12:32,820 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:12:48,434 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:12:48,434 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:13:04,036 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:13:04,036 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:13:05,902 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:13:19,660 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:13:19,660 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:13:35,235 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:13:35,236 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:13:39,267 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:13:50,840 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:13:50,841 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:14:06,443 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:14:06,443 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:14:12,695 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:14:22,130 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:14:22,130 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:14:37,682 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:14:37,682 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:14:46,116 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:14:53,255 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:14:53,257 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:15:08,873 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:15:08,873 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:15:19,586 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:15:24,784 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:15:24,784 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:15:40,392 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:15:40,392 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:15:53,320 DEBUG   SenderThread:7108 [sender.py:send():185] send: stats
+2021-10-11 16:15:55,997 DEBUG   HandlerThread:7108 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 16:15:55,997 DEBUG   SenderThread:7108 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 16:15:57,360 WARNING MainThread:7108 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-11 16:16:03,419 WARNING MainThread:7108 [internal.py:is_dead():364] Internal process exiting, parent pid 13640 disappeared
+2021-10-11 16:16:03,419 ERROR   MainThread:7108 [internal.py:wandb_internal():141] Internal process shutdown.
+2021-10-11 16:16:03,539 INFO    SenderThread:7108 [sender.py:finish():986] shutting down sender
+2021-10-11 16:16:03,539 INFO    SenderThread:7108 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-11 16:16:04,336 INFO    HandlerThread:7108 [handler.py:finish():683] shutting down handler
+2021-10-11 16:16:04,369 INFO    SenderThread:7108 [dir_watcher.py:finish():313] scan: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files
+2021-10-11 16:16:04,370 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\conda-environment.yaml conda-environment.yaml
+2021-10-11 16:16:04,372 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\config.yaml config.yaml
+2021-10-11 16:16:04,374 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\output.log output.log
+2021-10-11 16:16:04,375 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\requirements.txt requirements.txt
+2021-10-11 16:16:04,376 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\wandb-metadata.json wandb-metadata.json
+2021-10-11 16:16:04,376 INFO    SenderThread:7108 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\wandb-summary.json wandb-summary.json
+2021-10-11 16:16:04,377 INFO    SenderThread:7108 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-11 16:16:04,377 INFO    SenderThread:7108 [file_pusher.py:join():182] waiting for file pusher
+2021-10-11 16:16:04,385 INFO    WriterThread:7108 [datastore.py:close():281] close: C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\run-3m5l70dx.wandb
+2021-10-11 16:16:05,847 INFO    Thread-18 :7108 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\requirements.txt
+2021-10-11 16:16:05,855 INFO    Thread-17 :7108 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\output.log
+2021-10-11 16:16:05,884 INFO    Thread-16 :7108 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\config.yaml
+2021-10-11 16:16:07,071 INFO    Thread-19 :7108 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_160801-3m5l70dx\files\wandb-summary.json
+2021-10-11 16:16:07,819 INFO    MainThread:7108 [internal.py:handle_exit():76] Internal process exited

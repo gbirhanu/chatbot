@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 35, in <module>
+    all_words = [stem(w) for w in all_words if w not in ignore_words]
+  File "train.py", line 35, in <listcomp>
+    all_words = [stem(w) for w in all_words if w not in ignore_words]
+  File "C:\report\OgeettiiBot\server\nltk_utils.py", line 24, in stem
+    return stemmer(word.lower())
+  File "C:\report\OgeettiiBot\server\stem.py", line 151, in stemmer
+    last_letter = word[len(word) - 2]
+IndexError: string index out of range

@@ -1,0 +1,66 @@
+2021-10-11 09:47:11,728 INFO    MainThread:1280 [internal.py:wandb_internal():86] W&B internal server running at pid: 1280, started at: 2021-10-11 09:47:11.329204
+2021-10-11 09:47:11,731 INFO    WriterThread:1280 [datastore.py:open_for_write():77] open: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\run-25kl3p0y.wandb
+2021-10-11 09:47:11,733 DEBUG   HandlerThread:1280 [handler.py:handle_request():126] handle_request: check_version
+2021-10-11 09:47:11,737 DEBUG   SenderThread:1280 [sender.py:send():185] send: header
+2021-10-11 09:47:11,738 DEBUG   SenderThread:1280 [sender.py:send_request():199] send_request: check_version
+2021-10-11 09:47:12,136 DEBUG   SenderThread:1280 [sender.py:send():185] send: run
+2021-10-11 09:47:12,429 DEBUG   SenderThread:1280 [git.py:repo():33] git repository is invalid
+2021-10-11 09:47:12,962 INFO    SenderThread:1280 [dir_watcher.py:__init__():169] watching files in: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files
+2021-10-11 09:47:12,962 INFO    SenderThread:1280 [sender.py:_start_run_threads():746] run started: 25kl3p0y with start time 1633934827
+2021-10-11 09:47:12,963 DEBUG   SenderThread:1280 [sender.py:send():185] send: summary
+2021-10-11 09:47:12,963 DEBUG   HandlerThread:1280 [handler.py:handle_request():126] handle_request: run_start
+2021-10-11 09:47:12,982 INFO    SenderThread:1280 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-11 09:47:12,995 DEBUG   HandlerThread:1280 [meta.py:__init__():40] meta init
+2021-10-11 09:47:13,000 DEBUG   HandlerThread:1280 [meta.py:__init__():54] meta init done
+2021-10-11 09:47:13,000 DEBUG   HandlerThread:1280 [meta.py:probe():211] probe
+2021-10-11 09:47:13,003 DEBUG   HandlerThread:1280 [git.py:repo():33] git repository is invalid
+2021-10-11 09:47:13,003 DEBUG   HandlerThread:1280 [meta.py:_save_pip():58] save pip
+2021-10-11 09:47:13,005 DEBUG   HandlerThread:1280 [meta.py:_save_pip():72] save pip done
+2021-10-11 09:47:13,006 DEBUG   HandlerThread:1280 [meta.py:_save_conda():79] save conda
+2021-10-11 09:47:13,023 ERROR   HandlerThread:1280 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-11 09:47:13,024 DEBUG   HandlerThread:1280 [meta.py:_save_conda():87] save conda done
+2021-10-11 09:47:13,025 DEBUG   HandlerThread:1280 [meta.py:probe():249] probe done
+2021-10-11 09:47:13,031 DEBUG   SenderThread:1280 [sender.py:send():185] send: files
+2021-10-11 09:47:13,031 INFO    SenderThread:1280 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-11 09:47:13,050 DEBUG   HandlerThread:1280 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 09:47:13,051 DEBUG   SenderThread:1280 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 09:47:13,978 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\output.log
+2021-10-11 09:47:13,980 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\conda-environment.yaml
+2021-10-11 09:47:13,981 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\requirements.txt
+2021-10-11 09:47:13,982 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\wandb-metadata.json
+2021-10-11 09:47:13,984 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\wandb-summary.json
+2021-10-11 09:47:14,408 INFO    Thread-15 :1280 [upload_job.py:push():137] Uploaded file C:\Users\GB\AppData\Local\Temp\tmpn_uij4utwandb\59r9ukzp-wandb-metadata.json
+2021-10-11 09:47:16,005 INFO    Thread-12 :1280 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\output.log
+2021-10-11 09:47:28,563 DEBUG   HandlerThread:1280 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 09:47:28,564 DEBUG   SenderThread:1280 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 09:47:41,782 WARNING MainThread:1280 [internal.py:wandb_internal():145] Internal process interrupt: 1
+2021-10-11 09:47:42,721 WARNING MainThread:1280 [internal.py:wandb_internal():145] Internal process interrupt: 2
+2021-10-11 09:47:42,721 ERROR   MainThread:1280 [internal.py:wandb_internal():148] Internal process interrupted.
+2021-10-11 09:47:43,228 INFO    SenderThread:1280 [sender.py:finish():986] shutting down sender
+2021-10-11 09:47:43,229 INFO    SenderThread:1280 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-11 09:47:43,229 INFO    HandlerThread:1280 [handler.py:finish():683] shutting down handler
+2021-10-11 09:47:43,302 INFO    SenderThread:1280 [dir_watcher.py:finish():313] scan: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files
+2021-10-11 09:47:43,303 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\conda-environment.yaml conda-environment.yaml
+2021-10-11 09:47:43,304 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\config.yaml config.yaml
+2021-10-11 09:47:43,304 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\output.log output.log
+2021-10-11 09:47:43,305 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\requirements.txt requirements.txt
+2021-10-11 09:47:43,313 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\wandb-metadata.json wandb-metadata.json
+2021-10-11 09:47:43,318 INFO    SenderThread:1280 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\wandb-summary.json wandb-summary.json
+2021-10-11 09:47:43,318 INFO    WriterThread:1280 [datastore.py:close():281] close: C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\run-25kl3p0y.wandb
+2021-10-11 09:47:43,320 INFO    SenderThread:1280 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-11 09:47:43,321 INFO    SenderThread:1280 [file_pusher.py:join():182] waiting for file pusher
+2021-10-11 09:47:45,197 INFO    Thread-19 :1280 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\wandb-summary.json
+2021-10-11 09:47:45,219 INFO    Thread-18 :1280 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\requirements.txt
+2021-10-11 09:47:45,274 INFO    Thread-17 :1280 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\output.log
+2021-10-11 09:47:45,886 INFO    Thread-16 :1280 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211011_094707-25kl3p0y\files\config.yaml
+2021-10-11 09:47:46,688 INFO    MainThread:1280 [internal.py:handle_exit():76] Internal process exited

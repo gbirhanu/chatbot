@@ -1,0 +1,26 @@
+220 patterns
+46 tags: ['Infekshinii', 'asmii', 'cinqaamuu', 'covid19', 'dadhabuu_onnee', 'deebiinhinjiru', 'dhipina', 'dhukkuba_balaqqama', 'dhukkuba_balaqqama_konkolootaa', 'dhukkuba_busaa', 'dhukkuba_dhiibbaa_dhiigaa', 'dhukkuba_dhiphina_sammuu', 'dhukkuba_dugdaa', 'dhukkuba_finniisa', 'dhukkuba_funuuna', 'dhukkuba_garaachaa', 'dhukkuba_gogaa', 'dhukkuba_golphaa', 'dhukkuba_gurraa', 'dhukkuba_hirrina_dhiigaa', 'dhukkuba_ilkaan', 'dhukkuba_ilkaanii_holqa', 'dhukkuba_kaansarii_harmii', 'dhukkuba_kaansarii_sombaa', 'dhukkuba_kalee', 'dhukkuba_kooleeraa', 'dhukkuba_onnee', 'dhukkuba_saalaan_darban', 'dhukkuba_sukkaaraa', 'dhukkuba_taayifooyidii', 'dhukkuba_tb', 'dhukkuba_tiruu', 'dhukkuba_trachoma', 'dhukkubbii_narvii', 'galatoomaa', 'hirriba_dhabuu', 'istirookii', 'jedhaa', 'kan_eenyu', 'maqaa', 'michii_sombaa', 'nadhukkuba', 'nagaa', 'qoosaa', 'qufaa_utaalloo', 'tajaajila']
+272 unique stemmed words: ["'", '(', ')', ',', 'a', 'abdii', 'abjuu', 'agarra', 'ajjeessuu', 'ajjeesuun', 'akkam', 'akkamiifaa', 'akkamiin', 'akkamitti', 'akkitaa', 'ammaa', 'ariifachiisaa', 'ati', 'b', 'baachuun', "baay'e", 'balakkama', 'balaqqam', 'balaqqama', 'balaqqamsiis', 'balaqqamuu', 'barbaada', 'beekta', 'beekuu', 'bleed', "boo'uu", 'booda', 'boorsaa', 'boqonnaa', 'busaa', 'busaan', 'ciisanii', 'cinqamuu', 'cinqiin', 'cirracha', 'covid-19', 'dabalchiisan', 'dabaluu', 'daddarbaa', 'dadhaabbii', 'dadhaabuu', 'dadhabuu', 'dafqa', 'dafqi', 'dafquu', 'dandeenyaa', 'daranyoo', 'darban', 'deebii', 'dhaabuu', 'dhabuu', 'dhadhabuu', 'dhaga', 'dhaqna', 'dheebuchuu', 'dhiibbaa', 'dhiiga', 'dhiigaa', 'dhiiguu', "dhiita'uu", 'dhikkifannaa', 'dhiphachuu', 'dhiphina', 'dhukkuba', 'dhukkubaa', 'dhukkubbii', 'dhukkubbiii', 'dhukkubi', 'dhukkubni', 'dhukkuboota', 'dide', "dorbobbaa'uu", 'duddubati', 'dugda', 'dugdaa', 'dugdakoo', 'eeggachuuf', 'eeguuf', 'eeny', 'eenyu', 'eenyutu', 'eenyuun', 'eenyuuti', 'fakkaata', 'fayyaadha', 'fayyad', 'fayyummaa', 'fedhii', "fincaa'uu", 'finniisa', 'funuuna', 'funyaanii', "gaaddiddaa'uu", 'gaaddiddeessuu', 'gaarii', 'gadduu', 'gadhe', 'galaafachuun', 'galatoomaa', 'galatoomi', 'garaa', 'garaacha', 'garaachaa', 'gargaartaa', 'garmale', 'gatantaruu', 'gochuu', 'godha', 'gogaa', 'golfaa', 'golga', 'gubaa', 'gubuu', 'gurra', 'gurraa', "gurraacha'uu", 'gurrakoo', 'guyyaa', 'guyyaan', 'haala', 'hafuura', 'halkanii', 'halluu', 'hammeessuu', 'har', 'hargansuu', 'harganuu', 'harmaa', 'hello', 'hepat', 'hi', 'himi', 'himt', 'hin', "hir'ina", 'hirriba', 'hirribatu', 'hojjetta', 'hollachiisuu', 'holqa', 'hooqsisuu', 'hoqqisuu', 'humna', 'humni', 'ifa', 'ijaa', 'ilkaan', 'ilkaanii', 'isaa', 'istirookii', 'ittisuu', 'jechuu', 'jedhaa', 'jedhe', 'jedhu', 'jeeqama', 'jeeqamuu', 'jibbisiisa', 'jibbuu', 'jijjiirama', 'jirta', 'kaansarii', 'kaasaa', 'kalaqamt', 'kale', 'kamiin', 'kan', 'karaa', 'kee', 'keelloo', 'keenyaa', 'keessatti', 'kennuu', 'kofalchiisu', 'kolfisiisu', 'konkolaataa', 'kooleeraa', 'korrisuu', 'kufuu', 'kutaa', 'laaquu', 'laphe', 'maal', 'maali', 'maalii', "machaa'uu", 'magariisaa', 'mallattoo', 'mallattooleen', 'mallattoon', 'maqaa', 'maqaan', 'mataatu', 'mee', 'mitii', 'na', 'nama', 'nan', 'naqab', 'narvii', 'nasal', 'natti', 'nyaatamuu', 'of', 'ofirraa', 'ofwallaaluu', 'ol', 'olguuraa', 'onne', 'qaamaa', 'qaba', 'qabaa', 'qabdaa', 'qabe', 'qabnaa', 'qabu', "qofa'uu", 'qofaa', 'qofaassisa', 'qoosaa', 'qorichi', 'qorrisiisuu', 'qufaa', 'qufaatu', 'rakkinaan', 'rakkoo', "rom'isiisa", "rom'uu", 'saalaan', 'sagaale', 'sagale', 'sammuu', 'si', 'siin', 'sochii', 'sodaa', 'sodaan', 'sombaa', "sosocho'uu", 'stress', 'sukkaaraa', 'sukkaaraan', 'taayifesii', 'taayifooyidii', 'tb', 'tiibii', 'tiraakoomaa', 'tiruu', 'tolu', 'utaallootu', 'uum', 'waa', "waa'e", 'waamu', 'waan', 'wal', 'waliin', 'walitti', 'wallaaluu', 'wantoota', 'wayiin', 'xiqqoo', 'xiyyeeffannoo', 'yaada', 'yaaliin', 'yeroo', 'ykn']
+272 46
+Epoch [100/2000], Loss: 0.8041
+Epoch [200/2000], Loss: 0.0375
+Epoch [300/2000], Loss: 0.0131
+Epoch [400/2000], Loss: 0.3701
+Epoch [500/2000], Loss: 0.3531
+Epoch [600/2000], Loss: 0.2822
+Epoch [700/2000], Loss: 0.0015
+Epoch [800/2000], Loss: 0.0008
+Epoch [900/2000], Loss: 0.4114
+Epoch [1000/2000], Loss: 0.0000
+Epoch [1100/2000], Loss: 0.2066
+Epoch [1200/2000], Loss: 0.3760
+Epoch [1300/2000], Loss: 0.0029
+Epoch [1400/2000], Loss: 0.2156
+Epoch [1500/2000], Loss: 0.0085
+Epoch [1600/2000], Loss: 0.0000
+Epoch [1700/2000], Loss: 0.0000
+Epoch [1800/2000], Loss: 0.1893
+Epoch [1900/2000], Loss: 0.0000
+Epoch [2000/2000], Loss: 0.1973
+final loss: 0.1973
+training complete. file saved to data.pth

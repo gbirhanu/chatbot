@@ -1,0 +1,166 @@
+2021-10-09 15:10:20,182 INFO    MainThread:12196 [internal.py:wandb_internal():86] W&B internal server running at pid: 12196, started at: 2021-10-09 15:10:20.169251
+2021-10-09 15:10:20,185 INFO    WriterThread:12196 [datastore.py:open_for_write():77] open: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\run-2ogq7s7w.wandb
+2021-10-09 15:10:20,186 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: check_version
+2021-10-09 15:10:20,193 DEBUG   SenderThread:12196 [sender.py:send():185] send: header
+2021-10-09 15:10:20,194 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: check_version
+2021-10-09 15:10:20,600 DEBUG   SenderThread:12196 [sender.py:send():185] send: run
+2021-10-09 15:10:20,626 DEBUG   SenderThread:12196 [git.py:repo():33] git repository is invalid
+2021-10-09 15:10:21,208 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: run_start
+2021-10-09 15:10:21,227 INFO    SenderThread:12196 [dir_watcher.py:__init__():169] watching files in: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files
+2021-10-09 15:10:21,227 INFO    SenderThread:12196 [sender.py:_start_run_threads():746] run started: 2ogq7s7w with start time 1633781415
+2021-10-09 15:10:21,227 DEBUG   SenderThread:12196 [sender.py:send():185] send: summary
+2021-10-09 15:10:21,242 DEBUG   HandlerThread:12196 [meta.py:__init__():40] meta init
+2021-10-09 15:10:21,247 INFO    SenderThread:12196 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-09 15:10:21,247 DEBUG   HandlerThread:12196 [meta.py:__init__():54] meta init done
+2021-10-09 15:10:21,248 DEBUG   HandlerThread:12196 [meta.py:probe():211] probe
+2021-10-09 15:10:21,254 DEBUG   HandlerThread:12196 [git.py:repo():33] git repository is invalid
+2021-10-09 15:10:21,255 DEBUG   HandlerThread:12196 [meta.py:_save_pip():58] save pip
+2021-10-09 15:10:21,258 DEBUG   HandlerThread:12196 [meta.py:_save_pip():72] save pip done
+2021-10-09 15:10:21,258 DEBUG   HandlerThread:12196 [meta.py:_save_conda():79] save conda
+2021-10-09 15:10:21,264 ERROR   HandlerThread:12196 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-09 15:10:21,273 DEBUG   HandlerThread:12196 [meta.py:_save_conda():87] save conda done
+2021-10-09 15:10:21,273 DEBUG   HandlerThread:12196 [meta.py:probe():249] probe done
+2021-10-09 15:10:21,292 DEBUG   SenderThread:12196 [sender.py:send():185] send: files
+2021-10-09 15:10:21,293 INFO    SenderThread:12196 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-09 15:10:21,362 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-09 15:10:21,362 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: stop_status
+2021-10-09 15:10:22,244 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-summary.json
+2021-10-09 15:10:22,245 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\conda-environment.yaml
+2021-10-09 15:10:22,245 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-metadata.json
+2021-10-09 15:10:22,246 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\output.log
+2021-10-09 15:10:22,247 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\requirements.txt
+2021-10-09 15:10:22,683 INFO    Thread-15 :12196 [upload_job.py:push():137] Uploaded file C:\Users\GB\AppData\Local\Temp\tmp7o53newewandb\5deqfk4a-wandb-metadata.json
+2021-10-09 15:10:22,895 DEBUG   SenderThread:12196 [sender.py:send():185] send: telemetry
+2021-10-09 15:10:22,896 DEBUG   SenderThread:12196 [sender.py:send():185] send: exit
+2021-10-09 15:10:22,896 INFO    SenderThread:12196 [sender.py:send_exit():294] handling exit code: 1
+2021-10-09 15:10:22,897 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:22,897 INFO    SenderThread:12196 [sender.py:send_exit():296] handling runtime: 1
+2021-10-09 15:10:22,898 INFO    SenderThread:12196 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-09 15:10:22,899 INFO    SenderThread:12196 [sender.py:send_exit():306] send defer
+2021-10-09 15:10:22,899 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:22,900 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:22,900 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 0
+2021-10-09 15:10:22,901 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:22,901 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 0
+2021-10-09 15:10:22,901 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 1
+2021-10-09 15:10:22,902 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:22,902 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 1
+2021-10-09 15:10:23,037 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:23,038 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:23,038 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 1
+2021-10-09 15:10:23,038 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 2
+2021-10-09 15:10:23,039 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:23,039 DEBUG   SenderThread:12196 [sender.py:send():185] send: stats
+2021-10-09 15:10:23,040 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:23,041 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 2
+2021-10-09 15:10:23,041 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:23,041 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 2
+2021-10-09 15:10:23,042 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 3
+2021-10-09 15:10:23,042 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:23,042 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 3
+2021-10-09 15:10:23,043 DEBUG   SenderThread:12196 [sender.py:send():185] send: summary
+2021-10-09 15:10:23,044 INFO    SenderThread:12196 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-09 15:10:23,045 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:23,045 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 3
+2021-10-09 15:10:23,045 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 4
+2021-10-09 15:10:23,046 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:23,046 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 4
+2021-10-09 15:10:23,047 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:23,047 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 4
+2021-10-09 15:10:23,150 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:23,246 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-summary.json
+2021-10-09 15:10:23,247 INFO    Thread-12 :12196 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\output.log
+2021-10-09 15:10:23,499 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 5
+2021-10-09 15:10:23,499 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:23,500 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:23,500 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 5
+2021-10-09 15:10:23,501 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:23,501 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 5
+2021-10-09 15:10:23,501 INFO    SenderThread:12196 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-09 15:10:23,616 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,251 INFO    SenderThread:12196 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\config.yaml
+2021-10-09 15:10:24,256 INFO    SenderThread:12196 [dir_watcher.py:finish():313] scan: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files
+2021-10-09 15:10:24,257 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\conda-environment.yaml conda-environment.yaml
+2021-10-09 15:10:24,258 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\config.yaml config.yaml
+2021-10-09 15:10:24,258 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\output.log output.log
+2021-10-09 15:10:24,259 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\requirements.txt requirements.txt
+2021-10-09 15:10:24,270 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-metadata.json wandb-metadata.json
+2021-10-09 15:10:24,271 INFO    SenderThread:12196 [dir_watcher.py:finish():327] scan save: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-summary.json wandb-summary.json
+2021-10-09 15:10:24,274 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 6
+2021-10-09 15:10:24,275 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,281 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:24,281 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 6
+2021-10-09 15:10:24,290 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:24,290 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 6
+2021-10-09 15:10:24,291 INFO    SenderThread:12196 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-09 15:10:24,390 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,391 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,501 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,501 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,611 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,612 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,722 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,723 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,834 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,835 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:24,955 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:24,956 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,064 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,065 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,175 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,175 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,281 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,282 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,390 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,390 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,488 INFO    Thread-19 :12196 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\wandb-summary.json
+2021-10-09 15:10:25,499 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,499 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,508 INFO    Thread-18 :12196 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\requirements.txt
+2021-10-09 15:10:25,567 INFO    Thread-17 :12196 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\output.log
+2021-10-09 15:10:25,596 INFO    Thread-16 :12196 [upload_job.py:push():137] Uploaded file C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\files\config.yaml
+2021-10-09 15:10:25,607 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,607 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,717 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:25,718 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:25,809 INFO    Thread-11 :12196 [sender.py:transition_state():319] send defer: 7
+2021-10-09 15:10:25,810 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:25,811 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 7
+2021-10-09 15:10:25,811 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:25,811 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 7
+2021-10-09 15:10:25,825 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:26,133 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 8
+2021-10-09 15:10:26,133 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:26,134 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:26,134 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 8
+2021-10-09 15:10:26,134 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:26,135 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 8
+2021-10-09 15:10:26,135 INFO    SenderThread:12196 [sender.py:transition_state():319] send defer: 9
+2021-10-09 15:10:26,137 DEBUG   SenderThread:12196 [sender.py:send():185] send: final
+2021-10-09 15:10:26,137 DEBUG   SenderThread:12196 [sender.py:send():185] send: footer
+2021-10-09 15:10:26,138 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: defer
+2021-10-09 15:10:26,138 INFO    HandlerThread:12196 [handler.py:handle_request_defer():143] handle defer: 9
+2021-10-09 15:10:26,138 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: defer
+2021-10-09 15:10:26,138 INFO    SenderThread:12196 [sender.py:send_request_defer():315] handle sender defer: 9
+2021-10-09 15:10:26,248 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: poll_exit
+2021-10-09 15:10:26,249 DEBUG   SenderThread:12196 [sender.py:send_request():199] send_request: poll_exit
+2021-10-09 15:10:26,249 INFO    SenderThread:12196 [file_pusher.py:join():182] waiting for file pusher
+2021-10-09 15:10:27,274 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: get_summary
+2021-10-09 15:10:27,276 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: sampled_history
+2021-10-09 15:10:27,277 DEBUG   HandlerThread:12196 [handler.py:handle_request():126] handle_request: shutdown
+2021-10-09 15:10:27,277 INFO    HandlerThread:12196 [handler.py:finish():683] shutting down handler
+2021-10-09 15:10:28,175 INFO    WriterThread:12196 [datastore.py:close():281] close: C:\report\OgeettiiBot\server\wandb\run-20211009_151015-2ogq7s7w\run-2ogq7s7w.wandb
+2021-10-09 15:10:28,270 INFO    SenderThread:12196 [sender.py:finish():986] shutting down sender
+2021-10-09 15:10:28,270 INFO    SenderThread:12196 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-09 15:10:28,271 INFO    SenderThread:12196 [file_pusher.py:join():182] waiting for file pusher
+2021-10-09 15:10:28,296 INFO    MainThread:12196 [internal.py:handle_exit():76] Internal process exited

@@ -1,0 +1,565 @@
+{
+  "intents": [
+    {
+      "tag": "nagaa",
+      "patterns": [
+        "Hi",
+        "akkam",
+        "akkam jirta",
+        "Fayyaadha Mitii",
+        "Hello",
+        "Guyyaan Akkam"
+      ],
+      "responses": [
+        "akkam!",
+        "akkam, waan nu dubbisteef galatoomi",
+        "yooyyaa, maal isin gargaarru",
+        "Ashamaa, gaaffii fayyaa qabduu"
+      ]
+    },
+    {
+      "tag": "jedhaa",
+      "patterns": [
+        "jedhaa",
+        "booda wal agarra",
+        "guyyaa gaarii",
+        "Yeroo Gaarii"
+      ],
+      "responses": [
+        "Nu daawwachuu keef galatoomi, booda walitti deebina",
+        "Guyyaa gaarii",
+        "Jedhaa, hin badinaa",
+        "Nagaatti, deebi'aa Nu daawwadhaa"
+      ]
+    },
+    {
+      "tag": "galatoomaa",
+      "patterns": [
+        "Galatoomaa",
+        "Galatoomi",
+        "Baay'ee na fayyade, galatoomi",
+        "Baay'ee galatoomi!",
+        "Waan gaarii natti himte galatoomi"
+      ],
+      "responses": [
+        "Homaa mit!",
+        "yeroo kamuu nu quunnamaa!",
+        "rakkoo tokkon qabu"
+      ]
+    },
+    {
+      "tag": "tajaajila",
+      "patterns": [
+        "Maal hojjetta?",
+        "Maal na gargaartaa?",
+        "Dhukkuba akkamiifaa beekta"
+      ],
+      "responses": [
+        "Ani Ogeeettii fayyaati, gorsa fayyaan kenna, yoo baay'ee isin dhukkube Doktora naannoo keessanii bira deemaa",
+        "gorsa fayyaan laadha, akkam isin godha?"
+      ]
+    },
+    {
+      "tag": "maqaa",
+      "patterns": [
+        "Eenye Maqaan",
+        "Maqaan Kee eenyu?",
+        "Eenyu siin Jedhu?",
+        "Maqaa qabdaa?",
+        "Maal jedhee si waamu?"
+      ],
+      "responses": [
+        "himmm, Ogeettiin jedhama, ogeettii fayyaa",
+        "ogeettii jedhii na waami",
+        "Ani, Robootiidha, Ogeettii naan jedhi"
+      ]
+    },
+    {
+      "tag": "kan_eenyu",
+      "patterns": ["Ati kan eenyuuti", "Eenyutu si Uume", "Eenyuun Kalaqamte"],
+      "responses": [
+        "Ani Softwaredha, Gemechuutu Na barreesse",
+        "Gammachuutu na kalaqe"
+      ]
+    },
+    {
+      "tag": "nadhukkuba",
+      "patterns": [
+        "Har'a baay'ee natti hin tolu?",
+        "Xiqqoo na dhukkuba fakkaata?",
+        "Mataatu na dhukkuba?"
+      ],
+      "responses": [
+        "Ohh, Akkam si godha? xiqoo natti himuu dandeessaa",
+        "Homaa miti, Mana yaalaa deemtee? Mee mallatoosaa dabalii natti himi",
+        "Buna dhugdee, araada hin qabdu mitii, mee akka si godhu natti himi"
+      ]
+    },
+    {
+      "tag": "qoosaa",
+      "patterns": [
+        "qoosaa natti himi!",
+        "Mee waan na kolfisiisu natti himi!",
+        "Mee waan na kofalchiisu natti himi!",
+        "qoosaa qabdaa?"
+      ],
+      "responses": [
+        "Ani qoosaa baay'ee hin beeku",
+        "Baay'ee hin qoosu dhiifama"
+      ]
+    },
+    {
+      "tag": "deebiinhinjiru",
+      "patterns": [],
+      "responses": [
+        "dhiifama, hubachuu hin dandeenye",
+        "Odeeffannoo dabalataa naa kennitaa?",
+        "Hubachuu hindandeenye"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dhipina",
+      "patterns": [
+        "sodaan qaba",
+        "of ajjeesuun barbaada",
+        "of ajjeessuu",
+        "hirriba dhabuu",
+        "abdii dhabuu",
+        "jeeqamuu",
+        "of wallaaluu",
+        "gadduu",
+        "abjuu gadhee",
+        "natti hin tolu",
+        "of na jibbisiisa",
+        "of jibbuu"
+      ],
+      "responses": [
+        "Yaaddoo qabda fakkaata, waan akkasii yaalamuu danda'a Mana yaalaa deemi",
+        "Kun Anxiety ta'uu danda'a, dhiphina sammuu jechuudha, kanaaf yaalami",
+        "Yoo dhiphina baay'ee qabaatte mana yaalaa deemi ykn Bakka amantii"
+      ]
+    },
+    {
+      "tag": "cinqaamuu",
+      "patterns": [
+        "fedhii of ajjeesuun  qaba",
+        "of galaafachuun barbaada",
+        "sagaalee wayiin dhaga'a",
+        "abdii dhabuu",
+        "boo'uu",
+        "hirriba dhabuu",
+        "sochii dadhabuu",
+        "nan jeeqama",
+        "of wallaaluu",
+        "of dadhabuu",
+        "sodaa",
+        "yaada waliin laaquu",
+        "rom'uu",
+        "rom'isiisa",
+        "machaa'uu",
+        "humni dabaluu",
+        "waa dadhaabuu",
+        "abjuu gadhee",
+        "xiyyeeffannoo dhabuu"
+      ],
+      "responses": [
+        "Kun depressionii ta'uu danda'a kanaafuu Doktora haasofsiisi",
+        "Mallattoon kun kan Dhiphina Sammuuti, Waan itti dhiphattu qabdaa? Doktora ykn Bakka amantii deemi",
+        "Ati ofi hin dhiphisin Mana Yaalaa naannoo kee jiru daawwadhu"
+      ]
+    },
+    {
+      "tag": "dhukkuba_dhiibbaa_dhiigaa",
+      "patterns": [
+        "dhukkubbiii laphee",
+        "harganuu dadhabuu",
+        "dadhaabbii",
+        "humna dhabuu",
+        "kufuu",
+        "ofwallaaluu",
+        "gatantaruu",
+        "dafquu",
+        "dafqi dabaluu",
+        "dhikkifannaa onnee",
+        "hammeessuu ol ol jechuu",
+        "laphee gubaa",
+        "dhiibbaa laphee"
+      ],
+      "responses": [
+        "Dhiibaaa dhiigaa ta'uu danda'a kanaaf doctoraan ilaalami",
+        "Dhiibbaa dhiigaakee ilaalamtee, isa ta'uu danda'a ilaalami"
+      ]
+    },
+    {
+      "tag": "dhukkuba_sukkaaraa",
+      "patterns": [
+        "ammaa ammaa fincaa'uu",
+        "ammaa ammaa dheebuchuu",
+        "harganuu dadhabuu",
+        "dhukkubbii laphee",
+        "dhikkifannaa onnee",
+        "hammeessuu ol ol jechuu",
+        "ciisanii harganuu dadhabuu",
+        "korrisuu sombaa",
+        "deebii kennuu dadhabuu",
+        "jijjiirama haala sammuu",
+        "gatantaruu",
+        "balaqqamuu hoqqisuu",
+        "humna harganuu"
+      ],
+      "responses": [
+        "Dhukkuba Sukkaaraa ta'uu danda'a ilaalami",
+        "Mana yaalaa sitti dhihoo jirutti ilaalami, Dhukkuba sukkaaraa Ta'uu danda'a"
+      ]
+    },
+    {
+      "tag": "dhukkuba_onnee",
+      "patterns": [
+        "dhukkubbii onnee",
+        "laphee gubuu",
+        "harganuu dadhabuu",
+        "sosocho'uu dadhabuu",
+        "dafqi dabaluu",
+        "dhiibbaa laphee",
+        "rakkoo hargansuu yeroo sochii qaamaa",
+        "ciisanii harganuu dadhabuu",
+        "walitti dhiphachuu laphee"
+      ],
+      "responses": [
+        "Dhukkuba onnee ta'uu danda'a",
+        "Mana yaalaa si dhihoo jiru deemi Dhukkuba onnee ta'uu mala"
+      ]
+    },
+    {
+      "tag": "michii_sombaa",
+      "patterns": [
+        "na qofaassisa",
+        "dhaqna gubaa",
+        "ifa gaaddiddeessuu",
+        "harganuu dhadhabuu",
+        "korrisuu sombaa",
+        "qofaa akkitaa qabu",
+        "dhukkubbii golga sombaa",
+        "akkitaa keelloo",
+        "hir'ina sagalee hargansuu",
+        "hollachiisuu",
+        "korrisuu laphee",
+        "akkitaa magariisaa",
+        "qofaa gogaa",
+        "korrisuu laphee",
+        "dhiiga qofa'uu",
+        "cinqiin harganuu",
+        "hafuura kutaa",
+        "boqonnaa dhabuu",
+        "dafqa halkanii"
+      ],
+      "responses": [
+        "Michii sombaa ta'uu mala, mana yaalaa deemi",
+        "Doktora Haasofsiisi Michii Sombaa ta'uu danda'a"
+      ]
+    },
+    {
+      "tag": "asmii",
+      "patterns": [
+        "korrisuu laphee",
+        "harganuu dadhabuu",
+        "dhiphachuu laphee",
+        "dhukkubbii golga sombaa",
+        "qufaa akkitaa waliin",
+        "wantoota mallattoo dhukkubaa dabalchiisan",
+        "rakkinaan harganuu"
+      ],
+      "responses": [
+        "Asimii Ta'uu mala, Mana yaalaa Deemi",
+        "Qilleensa Jijjiiradhu Asimii Ta'uu mala",
+        "Doctora kee dubbisi Asimii ta'uu danda'a"
+      ]
+    },
+    {
+      "tag": "dhukkubbii_narvii",
+      "patterns": [
+        "Dhukkubi narvii akkam nama godha?",
+        "Boorsaa duddubati baachuun rakkoo qabaa"
+      ],
+      "responses": [
+        "WAALEETII (boorsaa xiqqoo yeroo hedduu dhiironni kofoo kara dudduubaa keessa godhatan, kan qarshii, waraqaa eenyuummaa, ATM fi kkf keessa kaa'atan): dhibee dhukkubbii narvii miilla gama saniin nama dhukkubu akka 'sciatica' fi kanneen biroo namatti fiduu danda'a!  â— Kunis, keessumaa boorsaan kun kan furdatee waan baay'een keessa tuulame yoo ta'e, yoo irra taa'an narvii gama saniin jiru miidhuu irraan kan kanka'eedha! â— Akkasumas akka fakkiirraa argitan sanatti yoo irra taa'an lafee dugdaa jallisuudhaan, yeroo dheeraa keessa, dhukkubbii dugdaa illee fiduu mala."
+      ]
+    },
+    {
+      "tag": "dhukkuba_sukkaaraa",
+      "patterns": [
+        "Waa'ee dhukkuba Sukkaaraa xiqqoo natti himi",
+        "Dhukkuba sukkaaraan qaba fakkaata",
+        "Qorichi dhukkuba sukkaaraa maali",
+        "Yaaliin Dhukkuba Sukkaaraa akkam"
+      ],
+      "responses": [
+        "Eeggannoo namoonni DHUKKUBA SUKKAARAA qaban gochuu qaban: EGGANNOO QAAMAA - Yoo qeensa qoratan of eeggannoo guddaadhaan akka of hin murretti qeensa gadi hambisuun qorachuu. - Yoo kophee godhatan kophee baballaa ykn kan duraan kaa'atan irra lakkoofsa tokkoo ol dabalanii kaa'achuu. - Yoo deeman miilla qullaa fi kopheewwan miilla mulisan kaa'achuu irraa of eeggachuu. -Yoo miilla dhiqatan bishaan dilallaa'aadhaan dhiqachuu. - Miilla isaanii irra yeroo yerootti akka madaan irra jiruuf hin jirre caqasuu qabu. -Sababa adda addaatiin madaan miilla isaanii irratti yoo ba'e akka warra kaanii ofiin fayyuun waan yeroo dheeraa fudhatuuf mana yaalaa deemuu qaban. 2. QORICHA. - Qoricha mana yaalaa nnuuf kennamu seeraan eegnee yoo fudhanne glukoosii qaama keenya keessaa ggarmalee akka olhin kaane taasisuudhaan rakkoo dhukkubi kun onnee kalee fi qaamota biroo irraan ga'u akka dafee hin dhufne tasisa. 3. NYAATA - Waantoota qabiyyee sukkaaraa qaban kanneen akka shayii, dhugaatii lallaafaa mi'aawaa, fi kkf. Irraa of qusachuu qabna. Kuduraa fi Muduraa mimmiyaa'oo hin taane ammoo sirriitti siirachuudha. Asirratti yeroo tokko tokko sukkaara baay'ibaay'isanii nyaachuudhaan dhukkubni sukkaaraa nama qaba jedhanii kan yaadan dogoggora. Erga dhukkuba sukkaaraan qabamnee garuu nyaachuu hin qabnu.) - nyaata coomaa fi dhadhaaan itti bayyate nyaachuu irraa of qusachuu. Kunis nyaanni kun oofuma isaatiin illee rakkoo qaamota keenya akka onnee fi hiddoota dhiigaa irratti waan fiduuf warra dhukkuba kana qaban irratti ammoo waan irra hammaatuuf. - Sababa adda addaatiin yoo sukkaarri qaama keessaa gadi bu'e mallattoo akka dafqisiisuu, dadhabsiisuu, rukkuttaan onnee garmalee akka nama fiigaa jiruutti rukkutuu fi of wallaaluu yoo argitan daftanii waan sukkaara qabu xiqqoo fudhachuu qabdu. Kan akka karamellaa, lallaafaa....... AKKUMA MALLATTOON SIRRAA'EEN GARUU DHAABUU QABNA. Yoo irra deddeebi'ededdeebi'ee yeroo baay'ebaay'ee nutti dhufe tarii dosen qoricha fudhachaa jirruu olka'aa ta'uu waan danda'uuf mana yaalaa deemnee sirreessisuu qabna."
+      ]
+    },
+    {
+      "tag": "qufaa_utaalloo",
+      "patterns": ["Qufaatu naqabe", "na qofaassisa", "utaallootu na qabe"],
+      "responses": [
+        "Utaalloo (Qufaa) irraa dafnee fayyuuf: Boqonnaa gahaa fudhachuu! -Bishaan ashaboon bulbulanii afaan fi gorooroo lulluuqqatanii (gurgle) godhanii tufuu! -Dammaa fi qullubbii adii nyaachuu! -Waan ho'aa funyaan gararraa ykn Adda keenyarra kaa'achuu! -Decongestan kan jedhaman kan funyaan cufame nuu banan mana qorichaa irraa fudhachuu! -Dhangala'aa sirriitti dhuguu! -Yoo rafnu boraatii (pillow) dabalataa mataa keenya jala kaa'achuu! -Waan ho'aa dhuguu! *************** Hub: Yoo funyaan keenya keessaa dhangala'aa baafnu, qaawwa funyaanii lamaan isaa altakkaatti yoo qabne gurri keenya waan miidhamuuf, dabaree dabareedhaan baafachuu qabna!"
+      ]
+    },
+    {
+      "tag": "Infekshinii",
+      "patterns": [
+        "dhaqna gubaa",
+        "gurraacha'uu gogaa",
+        "ifa gaaddiddaa'uu",
+        "dhukkuba tiruu",
+        "qorrisiisuu",
+        "hooqsisuu",
+        "garaa kaasaa",
+        "dhiita'uu qaamaa",
+        "dhukkubbii garmalee"
+      ],
+      "responses": [
+        "Infekshinii ta'uu danda'a Doctora dubbisaa",
+        "Mallatton kun Infekshinii fakkaata Mana yaalaa deemaa"
+      ]
+    },
+    {
+      "tag": "dhukkuba_dugdaa",
+      "patterns": ["Dugdakoo", "Dugda", "dhukkubbii Dugdaa"],
+      "responses": [
+        "DHUKKUBBII DUGDAA   AKKAMIIN OF GARGAARUU DANDEENYAA? 1. Yeroo dheeraaf siree irra boqochuu dhiisuu. Yeroo dheeraaf siree irra boqochuun dhukkubbii dugdaa namatti caalsisa waan taheef yoo dandahame sa'aa sadii ol (yeroo hirribaa irraa kan hafe) siree irra ciisuu dhiisuu qabna. 2. Hojii sasalphaa hojjachuu itti fufuu qabna. Hojii sasalphaa dalaguun dhukkubbii dugdaaf gaaridha. Hojii ulfaataa fi hojii dhukkubbii sana nutti kaasu ( salphaas tahu) irraa fagaachuu qabna. 3. Hojii keenya guyyaa guyyaa gaafa hojjannu akkaataa dhaabbii qaama keenyaa (posture) sirreeffachuu qabna. Posture jajallataa tahe irra dhaabatanii hojii hojjachuun gaaftokkotti dhukkuba nama qabsiisuu baatus yeroo dheeraa keessa dhukkubbii nutti fida. 4. Waan dilallaa'aa ta'e ykn ho'aa ta'e bakka dhukkubu sanarra kaa'uun dhukkubbiin akka itti dhaggeeffatu taasisa. Lameen keessaa kan sirriitti nutti fooyyesse fayyadamna. 5. Yoo rafnu yoo dugdaan ciisne tahe boraatii jilba keenya jala; yoo cinaachaan ciifne tahe ammoo boraatii jilba keenya lamaan gidduu kaa'achuun nutti fooyyessa. Garaadhaan ciisuun ammoo dhiibbaa qaamaa dugdarra kaa'uudhaan dhukkubbii nutti cimsa. 6. Yoo tamboo kan xuuxnu tahe addaan kutuu qabna. 7. Kana hunda cinaatti ogeessa fayaa bira deemanii ka'umsaa isaa baranii gagaarsaargachu un gaariidha. ************************************* YOOM GARA MANA YAALAA DEEMUU QABNAA? â–  Dhukkubbiin dugdaa torbanoota muraasaa ol nurra ture. â–  Yoo bobbaa ykn fincaan qabachuu dadhabuun jiraate. â–  Yoo ho'iinsi qaamaa (fever) jiraate. â–  Yoo rukkuttaa, kufaatii fi balaa adda addaa waliin kan walqabate ta'e. â–  Dhukkubbiin baay'ee hamaa yoo ta'ee fi yoo boqotanis gidduutti kan nama hin dhiifne yoo ta'e. â–  Dhukkubbiin dugdaa yoo gara miilaatti gadi dhufa ta'e, keessumaa yoo jilba gadi darbee dhukkube. â–  Yoo miilli laamsha'uu ykn adooduu (yoo tuqan namatti dhaga'amuu dhiisuu)n jiraate. â–  Yoo ulfaatinni qaamaa baay'ee hir'ate (ykn baay'ee huqqatan)."
+      ]
+    },
+    {
+      "tag": "dhukkuba_kooleeraa",
+      "patterns": ["Kooleeraa", "Dhukkubi kooleeraa akkam nama godha"],
+      "responses": [
+        "DHUKKUBA KOLEERAA  Dhukkubni koleeraa maalirraa nama qaba? Aakkamiiin daddarbaa? Dhukkubni kun yeroo ammaa biyya keenya kessatti haala adda ta'een namoota dhukkubsachiisuu fi lubbuu galafaachuu akka eegale midiyaalee fi qaamoleen dhimma fayyaa hawaasaa adda addaa himaa jiru. Kanaaf mee waa'ee koleera kana akkaataa itti nama qabu, yaalaa fi ittisa haala armaan gadii kanaan haa ilaallu.   Dhukkubni koleeraa baakteriyaa Vibrio cholerae jedhamtu kan gosoota 200 ol qabuun kan nama qabudha. Gosoota baakteeriyaa Vibrio Cholerae kana keessaa kan dhukkuba teessisaa kanaaf sabana ta'an gosoota lamadha, isaanis V. cholerae of the O1 and O139 serotypes kanneen jedhamnaidha.  Baakteeriyaan koleeraa kun erga qaama namaa seentee sa'aatii muraasaa haga guyyaa shanii gidduutti mallattoo agarsiisuu eegala. Dhukkubni koleeraa baay'inaan kan daddarbu nyaataa fi dhugaatii baakteeriyaa dhukkuba kana qabsiisuun faalame yoo namoonni fayyadamanidha. Yeroo tokko tokko maddi nyaata fi dhugaatii namoota hedduu tajaajilu yoo baakteeriyaa kanaan faalame altakkaatti namoota kumatama qabsiisee naannoof sodaachisaa ta'uu danda'a. Fakkeenyaaf maddi bishaan dhugaatii akka boombaa fi hooteela keessatti illee waanti akkanaa uumamauu mala. Baakteeriyaan kun erga liqimsamee garaa seenee booda hedduun isaanii  baakteeriyaa garaachaatiin kan dhuman yoo ta'u kanneen muraasni immoo nyaata keessa dhokachuudhaan dandamatanii mar'umaan qal'aa bira dhaqqabu. Haalonni biroo akka baakteeriyaan kun asidii garaachaa dandamatee gara mar'umaan qal'aatti darbu taasisu keessaa: altakkaatti baalteeriyaa hedduu liqimsuu, qoorichoota baakteeriyaa gaarachaa hir'isan akka (antacids) shirooppii farra asidii garaachaa kan dhukkubbii garaachaaf fudhataman yo fudhataa kan jiran ta'e fi nyaanni yoo garaacha keessa kan dafee darbu ta'edha. Erga ittisa kana daarbanii mar'umaan qa'aa qaqqabanii booda dhangala'aa qaama keessaa bifa teessisuu fi balaqqamsiisuu (haqqeetiin) gadi guuruu eegalu. DHUKKUBNI KOLEERAA MALLATTOOLEE AKKAMII ARGISIISAA Baakteeriyaan koleeraa kun qaama namaa keessa seenus namoota hunda irratti dhhukkuba koleeraa hin fidu. Namoota hedduu keessatti utuu dhukkuba hin qabsiisiin mallattoo tokko otoo hin argisiisiin darba. Namoota muraasa irratti garuu mallattoo fi dhukkuba koleeraa fida.  Mallattoon dhukkuba koleeraa salphaa (Mild cholera) dhukkuboota teessisan mallattoo xiqqaa argisiisan akka ameebaa irraa baay'ee addaa hin ba'u. mallattoo innin argisiisu keessaa: bobbaa qal'aa akka bishaanii teessisuu (watery diarrhea) fi waan akka furrii kan of keessaa qabudha. Mallattooleen akka bobbaa dhiiga qabu, haqqee (balaqqama) koleeraa salphaa irratti hin argaman. Dhukkubni Koleeraa cimaan (Severe Cholera) sa'atii muraasa keessatti balqqama (haqqee) fi bobbaa (teessisaa) irraan dhangala'aa qaamaa keessa haga liitira baay'ee baasuudhaan dadhabsiisuu fi miidhuudhaan haga lubbuu dabarsuu ga'a. Dhangala'aan sababa koleeraan qaama keessaa ba'u kun elektiroolaaytitoa jireenya lubbuu namaaf murteessoo ta'an akka soodiyeemii, potaasiyeemii fi kanneen biro fudhatee ba'uudhaan rakkoo lammataa geessisa. Elektiroolaayitoonni kun bakka hin buufaman taanaan salphaadhumatti lubbuu namaa dabarsuu danda'u. Dhukkubni kooleeraa cimaan kun yoo yaala kan hin arganne ta'e namoota qabate keesaa haga peersantii 50 haga 70 luubbuu galaafachuu mala. Kana jechuun kooleeraan cimmaan namoota kudhan yoo qabate yoo kan yaala kamiyyuu hin arganne ta'e keessa haga nama torbaaa lubbuu galaafachuu mala. Keessumaa irra caalaan daa'imman fi dubartoota ulfaa irratti miidhaan geessisu ol'aanaadha.  DHUKKUBNI KOOEERAA AKKAMIIN YAALAMAA?   Yaalli dhukkuba koleeraa osoo laabiraatiin hin mirkaneessiin dafee jalqabuu qaba. Sababni isaan dhangala'aan qaama keessaa ba'u lubbuu galaafachuudhaaf yeroo waan hin kennineef akkuma qabameen jakqaba yaaliin geggeefamuu qaba. Yaalli inni jalqabaa fi baay'ee barbaachisaa ta'e dhangala'aa qaama keessaa gadi ba'e bakka buusuudha. Kunis kan bakka bu'u Oral Rehydration Solution (ORS) kan namni kamuu mana qorichaa irraa bitatee bishaaniin bulbuluudhaan dhuguu danda'udha. Bulbulli (solution) kun elektroolaayitoota armaan olitti dhukkubni kun nama keessaa gadi guuru fi dhangala'aa ba'u bakka buusuudhaan carraa luubbuun darbuu nama koleeraan qabamee gara persentii tokkootti gadi buusuu danda'a. kana jechuun yoo dhangala'aa kana kan fudhatan ta'e namoonni koleeraan qabaman 100 keessaa haga nama tokkoo qofatu lubbuun darbuu danda'a jechuudha. Yoo sadarkaan dhangala'aa qaama keessaa gadi ba'ee ol'aanaa ta'e immoo mana yaalaattii karaa ujummoo dhigaa dhangala'aan ga'aaan kennamaauu fi qaba. Qorichi farra baakteeryaa (antibiotics) kanaas mana yaalaa irraa ni kennamaaf. Qorichi kun garuu turtii dhukkuba Sanaa hir'isuuf malee lubbuu baraaruu irratti ga'ee guddaa hun qabu. DHUKKUBNI KOLEERAA AKKAMIIN ITTIFAMAA? Dhukkubni koleeraa kun kan dhufu walumaa galatti rakkoo qulqullina bishaanii, nyaataa, kan naannoo fi nama dhuunfaa irraan waan ta'eef qulqullina eeguu irratti xiyyeeffachuun dhukuba kana ittisuu keessatti ga'ee ol'aanaa qaba. Halumaa kanaan maloota ittiin qulqullina eegan keessaa kanneen armaan gadii shanan koleeraa nurraa dhorkuudhaaf ga'ee olaanaa waan qabaniif keessumaa yeroo ammaa kana yeroo dhukkubni koleeraan namoota hedduu irratti argamaa jirutti fayyadamuun lubbuu ofiif kunuunsa ga'aa gochuu qabna.   Yeroo mana fincaanii deemnee deebinu, nyaata qopheessuun dura, nyaata qopheessuun booda, nyaata nyaachuun dura, nyaata nyaachuun booda, akkasumas nama dhukkuba kanaan qabameef kunuunsa yeroo kenninu harka keenyaa saamunaa fi bishaan qulqulluudhaan dhiqachuun dirqama.   Bishaan maddi isaa qulqulluu ta'e yoo arganne fayyadamuu yokaan ammoo keemikaalaa fi danfisuudhaan ququlleessinee dhuguun ofirraa ittisuudha.   Yoo bobbaa ba'an mana fincaanii qofatti ba'uu yokaan boolla bobbaan itti ba'amu qopheessuun itti fayyadamuu, bakkee irrattii fi madden bishaanii cinaatti tasumaa bobbaa ba'uu dhiisuu.   Nyaata seeraan bilcheessanii nyaachuu, yoo kan olkaa'an ta'e sirriitti qadaadanii kaa'uu, utuu hedduu hin turiin ho'aatti nyaachuu Ququllina naannoo, kan mana keessaa, kan mana fincaanii, bakka uffata miicanii fi kan kan fakkatan eeguu."
+      ]
+    },
+    {
+      "tag": "dhukkuba_kalee",
+      "patterns": ["Cirracha kalee", "Kalee"],
+      "responses": [
+        "CIRRACHA KALEE Cirrachi kalee, waantoota garaa garaa irraa kaleedhuma keessatti walitti qabamuun kan uumamtu dha. Cirrachi kale kan uumamu sababaan isaa guutummaa guutuutti beekamuu baatus sababoonni akka ka'umsaatti tarreeffaman: bishaan ga'aa dhuguu dhabuu, dhukkuba sukkaaraan qabamuu, ulfaatinni garmalee dabaluu, nyaata prootinaan olka'aa yeroo mara soorachuu fi kkf. Cirrachi kun gosoota addaa addaa qabaatus dhibbaan inni namarraan ga'uu fi mallattoolee inni argisiisu walfakkaataadha. ************************************* MALLATTOON CIRRACHA KALE MAALFA'II? Cirrachi kalee kun qaama sirna fincaanii keessaa bakka garaa garaatti argamuu danda'a. Mallattoon dhukkuba kanaas bakka cirrachi jiru (kalee, ujummoo fincaanii, afuuffee fincaanii) irratti hundaa'ee mallattoo garaa garaa argisiisa.  â€œCirracha Kalee Keesaaâ€: Yoo cirrachi kan kalee keessatti kuufame ta'e yeroo hedduu cinaacha keenya gama hubameen dhukkubbiin nutti dhaga'ama. Dhukkubbiin kun waggoota hedduuf nurra turuu danda'a. Takka takka dhukkubee giddu gidduun bade deebi'uus ni mala. Cirrachi kalee keessatti kuufame kun osoo dhukkubbii nutti hin dhageessisiin waggoota dheeraaf taa'uu illee ni danda'a.  â€œCirracha Ujummoo fincaanii Kessaaâ€:  Ujummoon fincaanii (ureter) kan kalee fi afuuffee finacaanii walqabsiiftu keessatti cirrachi kun kan argamu yoo ta'e, dhukkubbii baay'ee hamaa fi nama obsachiisuu hin dandeenye kan cinaacha keenya gama miidhame irraa ka'ee gara qaama saalaa keenyaatti garmalee gadi waraanutu nutti dhaga'ama. Kanatti dabalees mallattoo akka oldeebisuu/haqqee, dhagna gubuu fi kkf yeroo dhukkubbii kana namatti fiduu mala. Cirrachoonni garmalee nama dhukkubsan warren hammaan xixiqqaa ta'anidha. Cirrachi gurguddaa yeroo hedduu kalee keessaa ba'ee gara ujummoo fincaanii qal'oo kanaa waan hin dhufneef (waan ujummoo keessa hin sochooneef) akkanatti nama hin dhukkubsu. Dhukkubbii irratti dabalee cirrachi kalee mallattoolee akka fincaan diimessuu yokaan dhiiga fincaa'uu ni fida. Kunis cirrachi kun qaama fincaanii keenya yoo dhiigsu fiincaan waliin walmakee waan ba'uufidha. ************************************* CIRRAACHA KALEE KANA OFIRRAA ITTISUUF GAMA KEENYAAM MAALGOCHUUTU NURRAA EEGAMA? Bishaan dhuguu: bishaan ga'aa dhuguun dhukkuba cirracha kalee nurraa eeguu irra darbee cirrachoonni kalee hammaan baay'ee xixiqqoo ta'an bishaan walii akka ba'aniif gargaara. Namoonni keessumaa duraan cirrachi kalee isaanii keessaa mana yaalaan ba'eef carraa deebi'ee uumamuu isaa hir'isuudhaaf guyyaatti haga liitira 2.5 dhuguu qabu. Namoonni naannoo ho'aa jiraatan, namoonni yeroo hedduu sochii qaamaa taasisan kana caalaa dhuguu qabu.  Nyaata: nayaata qabiyyeen isaanii pirootini baay'ee olka'aa ta'an yeroo mara soraachuu irraa ofqusachuu qabna. Asahaboo nyaata keessaa illee yoo hedduu olka'aa ta'e akkuma dhukkuboota biroof nama saaxilu carraa dhukkuba kanaan qabamuu illee olkaasa. Cirrachi kalee yeroo ammaa kana yaala akkamii qabaa? Namni tokko mallattoowwan armaan olii waan qabuuf qofa cirracha kalee qaba jechuun hin danda'amu. Dhukkuboonni garaagraa mallattoo walfakkaataadhaan of mul'isuu malu. Kanaaf namni mallattoolee kana qabu mama yaalaa erga deemee booda altiraasaawondii (ultrasound) dhaan ilaaluudhaann cirrachi kun jiraachuu fi dhiisuu isaa, yoo kan jiru ta'eef ammoo bakka kamitti akka argamuu fi hammi (size) cirracha Sanaa hagam akka ta'e safaruudhaan gara yaaluutti deemama.  Yaalli cirracha kalee haga (size) dheerina cirracha sanaa irratti hundaa'uudhaan haala garaagaraan kennama. Cirrachi kalee hammaan baay'ee xixiqqoo ta'an yaala baqaqsanii yaaluu waan hin barbaadan. Bishaan yoo baay'isanii dhugan waan ba'uu danda'uuf mana yaalaatti kanuma gorfamu. Qorichoonni akka ciracchi xixiqqoon kun bishaan waliin baatuufa gargaaranis ni kennamu. Itti dabalaan ciracchi xixiqqoon kun akkuma armaan olitti ibsame gaafa ujummoo keessa deemtu waan dhukkubbii cimaa namatti fidduuf qorichoota dhukkubbii kana hir'isan fudhachuun barbaachisaadha."
+      ]
+    },
+    {
+      "tag": "istirookii",
+      "patterns": ["Istirookii", "Dhukkuba Istirookii"],
+      "responses": [
+        "Istirookii (Stroke)  Dhukkubni istirookii jedhamu kun akka addunyaatti, dhukkuba onneetti aanee lubbuu dhala namaa galaafachuudhaan sadarkaa 2ffaa irra kan jiruu fi, qaama namaa hir'isuudhaan ammoo sadarkaa 1ffaa irratti argama. Dhukkubichi gosa lama kan qabu yoo ta'u inni jalqabaa hiddoonni dhiigaa sammuu keessaa dhipaachuudhaan dhiigni sammuu keessatti socho'uu (yaa'uu dadhabuu) yoo ta'u kan lammataa ammoo dhiigni osuma yaa'u hiddoonni dhiigaa miidhamanii sammuu keessatti dhiigni dhangala'uudha. ***************** DHUKKUBICHAAF KAN NU SAAXILAN â–  Olka'uu dhiibbaa dhiigaa kan yaalaa ga'aa hin arganne. â–  Ulfaatina haga barbaachisuu ol qabaachuu. â–  Sochii qaamaa taasisuu dhiisuu. â–  Tamboo xuuxuu. â–  Coomni qaama keessa haga barbaadamuu ol kuufamuu. â–  Dhugaatii alkoolii garmalee baayy'isanii dhuguu. â–  Dhukkuba sukkaaraa. â–  Dhukkuba onnee â–  Firoottan dhiigaa dhukkuba istirookiin hubaman qabaachuun illee carraa ni dabala. â–  Umuriinis ga'ee mataa isaa taphata, haguma umuriin dabalaa deeme carraan dhukkuba istirookii kanaan qabamuu dabalaa deema.  ****************** MALLATTOOLEE  â–  Qaamni kara gama tokkoon altakkaatti laamsha'uu (socho'uu dadhabuu). â–  Battalumatti afaan dubbachuu dadhabuu. â–  Mataa dhukkubbii cimaa ta'e dursee namatti dhaga'amuu.  â–  Fincaan fi bobbaa qabachuu dadhabuu. â–  Balqqamuu (haqqee). â–  Afaan gartokkotti jallachuu (dadhabuu maashaalee fuulaa irraan kan ka'e) fi kkf. ******************* ITTISA â–  Dhiibbaa dhiigaa ofii ilaalamuu fi yoo qabaatan yaalamuu. â–  Tamboo aarsuu (xuuxuu) dhiisuu fi namoota xuuxan irraa fagaachuu. â–  Sochii qaamaa taasisuu: kana yoo jedhamu dirqama mana ispoortii deemuun osoo hin taane, deemsa, fiigicha salphaa, wadaroo irra utaaluu fi haala salphaa kanneen biro fayyadamuun hojjechuu dandeenya. Kanas yoo xiqqaate torbanitti guyyoota 4 ykn isaa oliif taasisuu qabna. â–  Maaloota gara garaa (sochii qaamaa, haala nyaataa sirreessuu fi kkf) fayyadamuun ulfaatina qaamaa hir'isuu fi coomni qaama keessaa illee yoo kan olka'e ta'e mana yaalaa deemuun ilaalamanii yaalamuu. â–  Dhukkuba sukkaaraa yoo kan qabnu ta'e hordoffii osoo addaan hin kutiin seeraan taasisuun sukkaara san to'achuu. â–  Alkoolii yoo danda'an dhiisuu, yoo kan dhugan ta'e ammoo xixiqqeessanii dhuguu fi kkf gochuudhaan dhukkuba istirookii ofirraa ittisuu dandeenya."
+      ]
+    },
+    {
+      "tag": "dhukkuba_dhiibbaa_dhiigaa",
+      "patterns": [
+        "Dhukkubni Hepatitis B karaa kamiin daddarbaa?",
+        "Dhukkubni Hepatitis B",
+        "Hepatitis B"
+      ],
+      "responses": [
+        "Dhukkubni Hepatitis B kan daddarbuu 1, Qunnaamtii saalaa (carraan walqunnaamtii saalaan daddarbuu isaa kan HIV irra harka 100 caala) â–  Meeshaalee qara qaban waliin fayyadamuudhaani.  â–   Haadha irraa dhalatti (yeroo da'umsaa fi gadameessa keessatti),  â–  Dhangalaa'aa kaamiyyuu qaama dhukkubsataa irraa gara nama fayyaatti faca'uun ni daddarba.  ************************** Dhukkubni vayireesii hepatitis B mallattoo akkamii agarsiisaa? â–  Vaayiresiin hepatitis B nama tokko erga qabatee booda waggoota dheeraadhaaf mallattoo tokko illee osoo hin argisiisiin dhokatee jiraata.  â–  Yeroo kana namoonni vaayiresii kana qaban (baataa) gara nama biraatti dabarsu.  â–  Waggoota dheeraa erga nama keessa turee booda vayireesiin kun suuta suutaan seelota tiruu ajjeessuun hojii ala taasisa. Kanneen biroo ammo tiruu isaanii kaanserii tiruu (hepatocellular carcinoma) qabsiisa.  â–  Vaayiresiin kun dhukkuboota kana erga namattii fidee booda, mallattoowwan miidhamuu ykn dadhabuu tiruu argisiisan mul'isan akka: qaamni guutummaa guutuutti (keessumaa garaan) dhiita'uu, halluun ijaa gara keellootti jijjiiramuu, haalluun fincaanii bifa cocacolla fakkaachuu, dadhabsiisuu, nyaata jibbisiisuu, balaqqamsiisuu, dhagna gubsiisuu fi kanneen birooti. ************************** Of eeggaannoon akkamii gochuu qabnaa? â–   Walqunnaamtii saalaa of eeggannaa hin qabnerraa f qusachuu. â–  Namoota dhukkuba kana akka qaban beekamee fi mallattoo dhukkuba kanaa qaban (haga mana yaalaa deemnee qoorachiifnutti) harka duwwaa tuttuquu irraa of qusachuu qabna.  â–  Talaalliin hepatitis B virus fudhachuun haga dhibbeentaa 90 umrii guutuu dhukkubicha namarraa dhorkuu danda'a. Talaalliin kun keessuma namoota mana yaalaa keessa hojjataniif namoota qunnaamtii saalaa namoota hedduu waliin taasisaniif hedduu barbaachisaadha. Taalaalliin kun namaoota umuriin keenya sadarkaa daa'immanii ol ta'eef kilinikoota dhuunfaa hedduu keessatti argama. Daa'immaniif garuu akkuma sagantaa talaalliitti kennamaa jira.  â–  Yoo tarii osoo talaallii isaa hin fudhatiin dhiiga nama dhukkuba kana qabuu waliin walitti buutan, qorichi sa'aa 72 keessatti fudhachuu qabdan (immunoglobulin) ni jira. Kanaaf erga mudatee booda atattamaan mana yaalaa deemuun dirqama."
+      ]
+    },
+    {
+      "tag": "dhukkuba_tiruu",
+      "patterns": [
+        "Fayyummaa Tiruu Keenyaa Eeggachuuf Maal Gochuu Qabnaa?",
+        "tiruu",
+        "Fayyummaa Tiruu Keenyaa Eeguuf Maal Gochuu Qabnaa? ",
+        "Dhukkuba tiruu"
+      ],
+      "responses": [
+        " Fayyummaa Tiruu Keenyaa Eeggachuuf  1. Dhukkuba vaayiresota tiruu ofirraa ittisuu, kunis qulqullina naannoof dhuunfaa eeguudhaan (Hepatitis A ittisa), walqunnaamtii saalaa of eeggannoo hin qabne irraa fagaachuu (hepatitis B fi C ittisa), qoratamanii ilaalamanii talaallii fudhachuun (hepatitis B ittisa) ta'uu mala. 2. Qorichoota ajaja ogeessaa fayyaa malee sababa gara garaaf (keessumaa dhukkubbiif) fudhatam yeroo hedduu fudhachuu irraa of qusachuu (Miidhaa tiruu 'Drug induced hepatitis' waan nutti fiduuf) 3. Diina tiruu kan ta'e Alkoolii kamiyyuu irraa fagaachuu (Dhukkuba tiruu 'Alcholic liver disease' waan nutti fiduuf) 4. Nyaata cooma hedduu of keessaa qabu nyaachuu dhiisuu fi sochii qaamaa sirriitti taasisuu (Ulfaatinni humnaa olii dhukkuba tiruu 'Non Alcoholic Fatty Liver Disease' jedhamu waan nutti fiduuf) 5. Qorichoota aadaa kan hagi isaanii (dose) hin beekamne irraa of qusachuu. 6. Buna dhuguu! Qorannoowwan hedduun fi kitaaboonni fayyaa buna dhuguun (guyyaatti haga sinii afur) fayyummaa tiruu keenyaaf hedduu gaarii akka ta'e ibsu. "
+      ]
+    },
+    {
+      "tag": "covid19",
+      "patterns": ["Waan COVID-19 maal beekuu qabnaa?"],
+      "responses": [
+        "Waa'ee covid beekamuu kan qabu:- 1.Tuttuqqaa namootaa, meeshaalee gara garaa vaayirasiin kun irra buufate tutuquu fi copha afaan dhukkubsataa qufa'uu ykn haxxiffatuu keessaa ba'uun daddarba. 2. Erga qaama namaa seenee booda giddu galeessaan guyyaa 5 keessatti mallattoo argisiisuu eegala. 3. Mallattoo keessaa inni jalqabaa ho'iinsa qaamaa (fever), itti fufuun qufaa gogaa (dry cough) achii ammoo afuura kutaadha. 4. Namoota mallattoo argisiisan keessaa dhibbeentaa 80 (80%) haala salphaadhaan fayyu. Dhibbeentaa 20% ammoo haala hammaataa fi gargaarsa yaalaa barbaadutu mudata. 5. Vaayirasiin kun haala amma keessa jiruun namoota qabate kessaa dhibbeentaa 2 (2%) lubbuun dabarsa. 6. Vaayirasiin kun nama gurracha, adii, daa'imman, maanguddoota mara ni qabata. Baay'inaan garuu kan lubbuu dabarsu namoota umuriin raaganii fi dhukkuba dabalataa duraan qabanidha. Ta'us darbee darbee namoonni umuriin dargageessaa fi dhukkuba biraa homaa hin qabne illee sababa vaayirasii kana lubbuu isaanii ni dhabu. 7. Namoonni fayyan, kan dhukkuba salphaa dhukkubsatanii turan ta'e, giddu galeessaa guyyaa 14 keessatti fayyu. Kanneen dhukkuba hamaa dhukkubsatan ammoo giddu galeessaan guyyaa 21 keessatti fayyu. 8. Vaayirasii kana harka dhiqachuu, waltuttuqqaa dhiisuu, yoo qufa'an ykn haxxiffatan afaan ofii haguuguu, yoo mallattoo ofirratti argan gara mana yaalaa deemuudhaan ittisuun ni danda'ama. 9. Vayirasii kana haga ammaa talaalliis ta'e qoricha fayyisu ykn fooyyessu hin jiru. Taalaalliif qorichoonni hedduun garuu qorannaa irra jiru. 10. Malootni aadaa fi nyaatni akka qullubbii adii fi kanneen biroo vaayirasii kanaaf hin fayyadan."
+      ]
+    },
+    {
+      "tag": "dhukkuba_garaachaa",
+      "patterns": ["garaacha", "dhukkuba garaachaa", "garaa gubaa"],
+      "responses": [
+        "DHUKKUBA GARAACHAA 1. Baakteeriyaa H. paylori. Baakteeriyaan kun garaacha keenyaf mar'umaan keenya ol'aanu miidhuudhaan kan dhukkuba kanaaf nu saxila.  2. Qorichoota dhukkuba biraaf kennaman NSAID jedhaman. Isaan kun kanneen akka aspirin, indomethacin, ibuprofen, fi kkf. Qorichoota kana yoo ajaja ogeessaa malee ofii keenyaa bitannu kana beekaa of eeggachuu qabna. 3. Tamboo xuuxuu. Dhukkubni garaachaa akka dafee sadarkaa badaa irra gahuu fi yaaluuf ulfaataa tahurra taasisa 4. Alkoolii dhuguu. Alkoolii keessumattuu kan qabiyyeen alkoolii isaa olka'aa ta'e dhuguun yokaan ammo kan qabiyyeen alkoolii isaa gadi aanaa tahe baay'isanii dhuguun dbukkuba kanaaf nama saaxila. 5. Rakkoo haawasummaa/Aarii/.  Rakkoolee hawaasaa kana keessaa muraasni: maatii waliin waldhabuu, hojiin garmalee bay'achuu, hojii dhabuu, galii baay'ee gad aanaa argachuu, mana hidhaa fi kkf dha. AKKAMIIN OF GARGAARUU DANDEENYAA? 1. Waantoota armaan olitti dhukkuba kana fidu jedhaman irraa of qusachuu i.e alkoolii baay'isuu, tamboo xuuxuu, qorichoota ajaja malee fayyadamuu fi of dhiphisuu. 2. Nyaata dhukkuba kana nutti cimsan irraa fagaachuu. Nyaata kana baay'inaan abbuma dhukkubsatu sanatu beeka, yoo kan nyaatnaan nutti cimsu beekne nyaata sanarra fagaachuu qabna. Walumaa galatti garuu mi'eessitoonni akka barbaree, buna, nyaatotaaf dhugaatii erga hojjetamanii turanii afaaniitti hadhaa'an ( farsoo ba'ee ture) namatti kaachisu. 3. Nyaata dhukkuba kana irraa fayyuuf nu gargaaran nyaachuu, isaan keessa dammi isa hangafa fi fayyuu garaacha madaa'eef kan gargaarudha. Qullubbiin adiin (garlic) baakteriyaa h. pylori jedhamu sanaaf akka haalli hin mijanne taasisa, kuduraa fi muduraaleen ammoo vitaaminii hedduu waan of keessaa qabaniif yoo nyaanne garaachi keenya dafee akka fayyu taasisa. 4. Gara mana yaalaa deemuun sadarkaa inni irra jiruufi yoo baakteriyaan h. pylori jiraate qoricha isaa fudhachuu qabna."
+      ]
+    },
+    {
+      "tag": "dhukkuba_dhiphina_sammuu",
+      "patterns": ["dhiphina sammuu", "stress", "cinqamuu"],
+      "responses": [
+        "DHUKKUBOOTA DHIPHINA SAMMUU (STRESS) IRRAA NAMATTI DHUFUU/HAMMAACHUU DANDA'AN!! 1. Dhukkuba onnee: Dhiibbaa dhiigaa olkaasuu,  dha'annaa onnee dabaluu fi karaalee birootiin deemee dhukkuba onneef nama saaxila. 2. Mataa dhukkubbii namatti fida, kan duraan jiranis namatti jabeessa. 3. Dhukkuba garaachaa (Dhukkuba garaachaa namatti fiduu caalaa, isa duraan jiru garmalee namatti jabeessa) 4. Dhukkuba Alzheimer's jedhamu kan dandeettii waa yaadachuu namaa balleessuun beekamu (memory loss) namatti fida. 5. Umurii malee qaamni ofii dafee dulloomuu fi akka dadhabu taasisuu 6. Dhukkuba sukkaaraa gosa 2ffaa (type 2 DM). Hagi sukkaara qaama keessa jiru akka hin to'atamne taasisuun namatti hammeessa. 7. Dhukkuba Asmiif haga ta'e akka saaxilamnu akka nu taasisu qorannoowwan ni mirkaneessu. 8. Walumaa galatti umurii namaa gabaabsa (premature death) namatti fida."
+      ]
+    },
+    {
+      "tag": "dhukkuba_gogaa",
+      "patterns": ["Dorbobbaa'uu gogaa", "gogaa"],
+      "responses": [
+        "Dorbobbaa'uu gogaa (Urticaria) Yeroo tokko tokko gogaan qaama keessanii dorbobbaa'ee beekaa?yookaan dhiitaan xixiiqqoo hooksistu isin iratti baatee beektii?  Dorbobbaa'uun kun afaan jaraan faranjiin 'Urticaria' ykn 'hive' kan jedhamtu yoo taatu, yeroo hedduu: gogaa qaamaa keenyaa irratti dhiitaa xixiqqoo waan akka sarara yokaan bifa raammoo qabaattee namarratti baatu, kan baay'ee nama hooksistuu, gogaa namaa bakka kamirrattuu kan baatuu fi gogaa keenya bakka tokkorraa kara kan biraatti kan ceetu fi sa'aa 24 osoo hin turiin kan namarraa baddu dha. Wanti kunis kan namarratti baatu, sababa seelonni qaamaa keenyaa kanneen dhukkuba nurraa lolan (madiinummaa), waantoota gara garaa armaan gaditti tarreefaman kana akka qaama alagaatti loludha. Isaanis kanneen akka:  1. bishaan ho'aa yoo ittiin qaama dhiqannu, ciniinnaa/hidduu ilbisoota tokko tokkoo fi kkf. 2. Yoo sochii qaamaa taasifnu, garmaalee dhiphannu, ifa aduu cimaatti baanu. 2. Qorichoota garagaraa akka kanneen dhiibbaa dhiigaaf kennamanii fi kanneen biroo qaamni keenya lolu. 3. Waantoota qilleensa keessa deddeebi'an ijaan hin mul'anne akka polanii daraaraa biqiltootaa fi kan biroo. 4. Infection tokko tokko, yoo dhukkubsataanii dhiigni namaa namaaf kennamu fi kkf. Waantoonni dorbobbii gogaa (urticaria) kana namatti fidan namaa namatti adda adda, kanneen armaan olii kanaa alattis ta'uu malu. YOOM MANA YAALAA DEEMUU QABNAA? Dorbobbiin gogaa kun kan ofiin badduu fi yeroo hedduu gargaarsa ogeessa fayyaa kan hin barbaannedha. Darbee darbee garuu ujummoolee qilleensa gara sombaa geessan yoo dhiitesse, akkasumas arraba dhiitesse, ukkaamsuudhaan (qilleensi akka hin darbine ittisuun) gara lubbuu galaafachuu waan deemuuf mallattoo akka: arraba dhiitessuu, ukkaamsuu, afuura kutuu, sagalee jijjiiruu fi kkf yoo mul'ate hatattamaan gara mana yaalaa deemuudha."
+      ]
+    },
+    {
+      "tag": "hirriba_dhabuu",
+      "patterns": ["Hirribatu na dide", "hirriba dhabuu", "hirriba"],
+      "responses": [
+        "NAMOOTA HIRRIBNI DIDEEF 1. Sa'atii walfakkaataatti gara siree ba'aa 2. Ciisuu keessaniin dura aannan ho'aa dhugaa 3. Bishaan ho'aan qaama dhiqadhaa ciisaa 4. Kitaaba dubbisaa ciisaa 5. Sa,aatii ammaa ammaa hin ilaaliinaa 6. Nyaata baay'ee yokaan ulfaataa ciisuu keessaniin dura hin nyaatiinaa 7. Muuziqaa waan sagalee qaban of irraa fageessaa 8. Warri muuziqaa jaallattan ammo classical dhaggeefataa ciisaa 9. Bakkeewwa hedduu jaallattan suura isaanii maxxanfadhaa 10. Ifa mana ciisicha keessaa balleessaa 11. Bunaa fi waantoota isa fakkaatan ciisuu dura hin fudhatinaa 12. Rafuun dura sochii qaamaa taasisaa."
+      ]
+    },
+    {
+      "tag": "dadhabuu_onnee",
+      "patterns": ["Onnee", "dadhabuu onnee", "dhukkuba onnee"],
+      "responses": [
+        "Mallattoolee dadhabuu onnee (Heart Failure) agarsiisan: - Afuurri nama cituu ykn hanqachuu. -Dadhabbii humnaa olii fi humna dhabuu. - Miilli lamaan dhiita'uu, dhiitaan kun yoo qubaan gadi dhiiban dhooqa (akka bollaa) baasuudhaan gadi qabamee tura, achumaan darbee garaan illee dhiita'uu danda'a. - Dha'annaan onnee daddafee rukutuu fi rukkuttaan isaa osuma taa'aa ykn boqataa jiranii namatti dhaga'amuu. - Tartiibaan (regular) dha'achuu dhabuu onnee. - Dandeettiin sochii qaamaa taasisuu ykn waa hojjechuu xiqqaachaa deemuu, akkuma sochii qaamaa eegalaniin afuurri nama cituu. - Qufaa walitti fufaa, keessumaa kan halkan halkan nama qufaasisu, hakitaan ba'u illee dhiiga xiqqoo makachuu danda'a. - Nyaata jibbisiisuu, oldeebiisuu yaaduu, sababa dhiita'uu qaamaan ulfaatinni qaamaa altakkaatti baay'ee dabaluu. - Dhukkubbii laphee  HUB:  - Mallattoowwan armaan olii kana keessaa kanneen tokko tokko sababa dhukkuba biraa illee dhufuu danda'u. - Mallattoowwan armaan olii kun kan mul'atan erga onneen baay'ee miidhamtettidha. ***** Kanaaf mallattoolee armaan olii kana yoo ofirratti argitan (Keessumaa mallattoolee tokkoo ol) mana yaalaa deemuun of qorachiisuun yaala ga'aa argachuun dirqama. Madda: Mayo Clinic Fayyaan faaya."
+      ]
+    },
+    {
+      "tag": "dhukkuba_finniisa",
+      "patterns": ["finniisa"],
+      "responses": [
+        "FINNISA (ACNE) AKKAMIN OFIRRAA ITTISUU DANDEENYAA? Rakkoon kun kan uumamu yoo xannachi gogaa sabaceous gland jedhamu kan dhangala'aa akka zayitaa sebum jedhamu kan gogaa keenya akka hin gogne eeguuf gargaaru oomishu haga isarraa eegamuu ol dalagu (overactive) dha. Akkamiin ifirraa ittisuu dandeenyaa? 1. Nyaata zayita qaban erga nyaannee booda fuula keenya qaqqabuu dhiisuu qabna. 2. Dibata fuulaa (make up) hir'isuun baay'ee gargaara. 3. Dibata baareedinaa (make up) yoo dibannu kan 'non-comedogenic' jedhu fi kan bu'aalee zayitaa (oil) baay'ee of keessaa hin qabne fayyadamuu qabna. 4. Fuula keenya guyyaatti ala lama qulqulleeffachuun qaawwi gogaa keenyaa xuraawaa garaagaraan akka hin cufamne taasisuun finnisi akka hin uumamne gargaara. 5. Uffata boraatii (pillow) yeroo yeroon miicuu qabna. Yoo hin miicamne dafqi duraan ture fuula keenyarratti ba'ee rakkoo kanaaf nu saaxila. 6. Fuula keenya akka hin gogne taasisuudha (moisturizing) 7. Yoo shaampoodhaan rifeensa dhiqannu gara fuula keenyaatti akka hin dhufne eguudha. 8. Yoo aduu keessa deemnu waan aduu nurraa ittisu qabachuu.. fulli keenya akka hin gogne waan gargaaruuf. 9. Guyyaa guyyaan sochii qaamaa gochuun fayyummaa gogaa keenyaa fuula qofa osoo hin taane guutummaatti eega. 8. Bishaan sirriitti dhuguu 10. Bilbila harkaa yokaan moobaayila keenya fuula keenya waliin waan waltuqaa ooluuf qulqulleeffachuu qabna."
+      ]
+    },
+    {
+      "tag": "dhukkuba_kaansarii_harmii",
+      "patterns": ["Mallattooleen Kaansarii harmaa maali", "kaansarii harmaa"],
+      "responses": [
+        "MALLATTOOLEE KAANSARII HARMAA! -Waanti akka hiitaa jajjabaataa harma keessaa bakka takkatti yokaan guutummaa harmaa keessaatti umamuu -Bakka hiitaan sun itti ba'een gogaan harmaa gara keessaatti gadi dhooquu -Fiixeen harmaa yokaan nipple ishiin jedhamtu gara keessaatti deebi'uu (Kun waarra uumamumaan fiixeen harma isaanii gara keessatti liqimfamaa tahe osoo hin taane duraan normal warra tureef) -Gogaan harmaa irraa bakka takkan diimatee, jajjabaatee, qola burtukaanaa fakkaachuu -Dhangala'aan aannan irraa adda ta'e harma keessaa gadi yaa'uu -Hiitaan xannacha liimfii bobaa jalatti jajjabaatee guddatee ba'uu Hub: Mallattoon kun marti sababa salphaa ta'e kan biraa kanneen akka infekshinii, cyst (hiitaa bishaan qofa ofkeessaa qabu) fi kanneen biroon ni dhufa. Kanaaf mallattoo kana yoo ofirratti argitan akka ofsodaachiftaniif osoo hin taane mana yaalaa deemtanii akka laalamtaniif."
+      ]
+    },
+    {
+      "tag": "dhukkuba_dhiibbaa_dhiigaa",
+      "patterns": ["Hi"],
+      "responses": [""]
+    },
+    {
+      "tag": "dhukkuba_ilkaan",
+      "patterns": ["ilkaan", "halluu ilkaanii"],
+      "responses": [
+        "JIJJIIRAMUU HALLUU ILKAANII Waantinni ilkaan keenya halluu jijjiiran maal fa'i? 1. Bishaan, qorichoota, nyaata oomishamanii gurguraman, akkasumas saamunaa ilkaanii fluoride ol'aanaa of keessa qabu yeroo hedduu fayyadamuu, keessuumaa daa'imman umuriin isaanii waggaa saddeetii gadi jiran waan kanaaf yoo saaxilaman salphaatti halluun ilkaan isaanii gara keellootti jijjiramuu danda'a.  2. Qulqullina ilkaanii eegu dadhabuu. Kunis yeroo dheeraa booda waantotanni ilkaan namaa halluu balleessuu ilkaan irratti kuufamuu fi akkasumas baakteeriyaa horsiisuun ta'uu mala. 3. Dhukkuboota sirna qaamaa biroo. 4. Qorichoota dhukkuba biraaf kennaman akka: Farra baakteeriyaa doxycycline fi tetracycline yoo daa'imman xixiqqoof kennaman, qorichoota antihistamines fi dhukkuba sammuuf kennaman tokko tokko. Cararii (radiation) fi keemooteerapii dhukkuboota kaansarii gara garaaf kennaman. 5. Umuriin gaafa dabalaa deemu qaamni ilkaanii kan gara alaa (enamel) dadhabaa waan deemuuf, halluu isaa jalqabaa gadi lakkisuu mala. 6. Tamboo fi keemikaalota nicotine kan of keessaa qaban aradaaf fayyadamuu 7. Balaa akka tasaa kan ilkaan cabsuun yokaan miidhuun halluun ilkaanii jalqabaa gadhiisisuu. 8. Dhuugaatiin akka bunaa, wayinii, kuduraaleef muduraa halluu qaban tokko tokkos yeroodhaaf ilkaan keenya halluu jijjiiruu malu. Furmaata isaas yeroo muraasaa isiniif katabna... nu eegaa!"
+      ]
+    },
+    {
+      "tag": "dhukkuba_balaqqama",
+      "patterns": ["balaqqama", "olguuraa", "balaqqamsiise", "balaqqame"],
+      "responses": [
+        "BALAQQAMA/OLGUURRAA YEROO ULFAA: Akkamiin xiqqeessuu dandeenya?  1.nyaata xixiqqeessani ammaa ammaa garaagarummaa sa'aatii lamaan soorachuu. 2.nyaata coomaaf dhadhaa of keessaa qabu hir'isuu. 3.soorata kan protinaa fi vitaaminin guutuu ta'an kan akka kuduraa fi muduraa fayyadamuu. 4.zinjibila gogaa isaa ykn nyaata kessatti fayyadamuu. 5.nyaataa fi dhugaati ho'aa fayyadamuu dhiisuu 6.nyaata gogaa ta'an kan akka akaayii fayyadamuu. 7.nyaataa dura bishaan dhuguu. 8. nyaataa booda boqonnaa fudhachuu 9.foolii nyaataa,haaraa fi ho'a hir'isuu fi kkf dha. 10. Yoo garmalee itti hammaate gara mana yaalaa deemuu qabu Maalumaafuu olguurraan yeroo ulfaa maalii? Ol-guurraan yeroo ulfaa beekkamaadha. kunis yeroo hedduu kan inni mul'atu hanga torban 16 (ji'a 4)ti. Haa ta'u malee ol deddeebisaan kun yoo hammaate mucaa irraatti osoo hin taanee haadharratti dhibee fiduu ni danda'a. Dhibeen kun yoo hammaatu,haadha uuqqisuu,hanqin a nyaata fiduu,kalee miidhuu,dhibee sammuu fiduu,bishaan fi elektrolyiti qaama keessaa jiru hir'isuu fi kkf fiduu ni danda'a. Kanaafu ol-gurraan kun al ja'aafi isaa ol yoo ta'e, ulfaatinni isaani 5%n yoo hir'ate atattamaan gara mana yaalaa deemuu qabu."
+      ]
+    },
+    {
+      "tag": "dhukkuba_hirrina_dhiigaa",
+      "patterns": ["Hir'ina dhiigaa"],
+      "responses": [
+        "HIR'INA DHIIGAA (ANEMIA) Hir'ina dhiigaa jechuun yoo dhiigni diimaan qaama keenya keessatti argamu haga barbaachisuu irraa gadi bu'u jechuudha. MALLATTOO ISAA 1. Dadhabbii, afuurri cituu, harkii fi miilli dilallaa'uu 2. Mataa dhukkubbii lafti namaan maruu, waa yaadachuu dadhabuu. 3. Dha'annaan onnee oduma taa'anii akka nama fiiguu namatti dhaa'amuu 4. Gurra keessaa namatti iyyuu, dhamdhamni nyaata namatti jijjiiramuu fi kkf. MAALTU HIR'INA DHIIGAA FIDAA? 1. Dhiiguu kanneen akka dahumsaa, marsaa laguu, kintaarootii fi kkf. 2. Hir'ina viitamin B. 3. Hir'ina elementii ayirenii (Iron) 4. Dhukkuba garaachaa 5. Raammoo garaa (hook worm) 6. Dhukkuba busaa (malaria) 7. Dhukkuba kalee yoo baayyee namarra ture 8. Dhukkuboota lafee (bakka itti dhiigni oomishamu) miidhan. 9. Dhukkubootni biroo kan yeroo dheeraaf namarra turan illee hir'ina dhiigaa ni fidu. NYAATA KAM NYAANNEE OF WAL'AANNAA? 1. Hundee diimaa 2. Timaatimaa fi loomii 3. Tiruu 4. Kuduraalee fi muduraalee. 5. Damma fi Aannan 6. Nyaata armaan olii kana yoo nyaannu bunaa fi shayii waliin dhuguu hin qabnu. Kunis xuuxamuu iron waan hir'isuuf."
+      ]
+    },
+    {
+      "tag": "dhukkuba_balaqqama_konkolootaa",
+      "patterns": [
+        "konkolaataa keessatti na dhukkuba",
+        "Balakkama konkolaataa",
+        "balaqqama"
+      ],
+      "responses": [
+        "BALAQQAMA KONKOLAATAA KEESSAA (MOTION SICKNESS) Namoonni baay'een yoo konkolaataa koran ni balaqqamu. Namoota kana qabaniif waan ittiin of gargaaran: 1. Deemsa eegaluun dura nyaata baay'ee, nyaata zayita qabu, nyaata foolii cimaa qabu fi alkoolii irraa of qusachuu. 2. Zinjibila (ginger) shayiidhaan danfisanii dhuguun ni gargaara. 3. Loomii xuuxaa yoo deemne garaacha keenya tasgabbeessuuf gaarummaa qaba. 4. Konkolaataa keessa bakka sochiin itti xiqqaatu ( kara fuulduraa) taa'uu. 5. Yeroo hunda kallattii fuula duraa irraa itti deemnuun taa'uu. 6. Namooti rakkoo kana qaban wal bira akka teenye fi akkasumas isaan biratti waa'ee waan kanaa haasa'uun akka dafee itti dhufu taasisa. 7. Qorichi dukkuba kanaaf ooluuf sirritti fayyadu waan jiruuf dursanii bitachuudha."
+      ]
+    },
+    {
+      "tag": "dhukkuba_dhiibbaa_dhiigaa",
+      "patterns": ["Hi"],
+      "responses": [""]
+    },
+    {
+      "tag": "dhukkuba_ilkaanii_holqa",
+      "patterns": ["Holqa ilkaanii", "holqa", "nyaatamuu ilkaanii"],
+      "responses": [
+        "Nyaatamuu ilkaanii (Dental Caries) Maaliin dhufaa? Akkamiin ofirraa ittisuu dandeenyaa? Nyaatamuun ilkaanii (dental caries ) kan nutti dhufu yoo ilkaan keenya asidii baakteriyaa ilkaan keenya gidduutti walhoraniin hubamudha. Kana ittisuuf maal gochuu qabnaa? 1. Saamunaa ilkaanii flouride of keessaa qabuun guyyaatti al lama ilkaan keenya ququlleeffachuu. Yoo kan altakkaa qulqulleeffannu ta'e galgala qulqulleffachuu qabna. 2. Bishaan uumamaa dhuguu. Kana jechuun yeroo hundaa highland (bottled water) dhugna yoo ta'e flouride hanga isa uumamaa waan hin qabneef miidhamuu dandeenya. 3. Nyaata sukkaara olka'aa ofkeessaa qaban fi miyaawaa ta'an baay'isuu irraa of qusachuu 4. Nyaata ammaa ammaa itti deddeebi'anii nyaachuu dhiisuu. 5. Ilkaan keenya gidduutti nyaata hartuu ilkaanii (tooth brush) dhokatee hafu waan akka fo'aa (kirrii) qal'oo ishiitiin of keessaa baasuu qabna (flossing). 6. Ogeessa ulkaanii (dentist) yeroo murtaa'e keessatti deemanii haasofsiisuu GALATOOMAA!"
+      ]
+    },
+    {
+      "tag": "dhukkuba_kaansarii_sombaa",
+      "patterns": [
+        "kaansarii sombaa akkamiin ofirraa ittisuu dandeenyaa?",
+        "kaansarii sombaa",
+        " mallattoon isaa maalii?"
+      ],
+      "responses": [
+        "KAANSARII SOMBAA AKKAMIIN OFIRRAA ITTISUU DANDEENYAA? MALLATTOON ISAA MAALII? 1. Tamboo tasuma xuuxuu irraa of eeguu. Namoota dhukkuba kanaan qabaman keessaa harki 90 namoota tamboo xuuxanidha. 10% qofa namoota tamboo hin xuuxne qabata. 2. Tamboo kan xuuxnu yoo ta'e ammoo dhaabuudha. Tamboo yoo xuuxuu dhaabne carraan isaan qabamuu baay'isee gadi bu'aa deema. 3. Namoota tamboo xuuxan irraa fagaachuu qabna. Kunis aarri tamboo qilleensa keessaan gara keenya dhufu illee dhukkuba kanaaf waan nu saaxiluuf. 4. Mana yaalaa yoo deemnu raajii (x-ray) hin baarbaachifne callisnee ka'uu irraa of qusachuu 5. Nyaata kuduraa fi muduraa of keessaa qabu (keessumaa vit E) guyyaa guyyaan yoo danda'ame nyaachuu. 6. Keemikaalota warshaa keessaa kan carcinogen jedhaman kessumaa asbestos fi arsenic kan jedhaman irraa fagaachuu. 7. Sochii qaamaa guyyaa guyyaan gochuu MALLATTOO -Qufaa yeroo dheeraaf namarraa hin deemne -Erga qufa'anii booda haakitaa waliin dhiiga tufuu -Laphee (qoma) dhukkubsachuu -Ulfaatina hir'isuu -Nyaata jibbisiisuu -Maataa dhukkubsuu -Dhadhabuu, afuuraa cituu -Jiijiiramuu sagalee (hoarseness) YAALA -Sadarkaa fi gosa dhukkubichaa irratti hundaa'ee baqaqsanii baasuu fi yaala keemikaalaan (chemoterapy) kennamuu danda'a."
+      ]
+    },
+    {
+      "tag": "dhukkuba_funuuna",
+      "patterns": [
+        "funuuna",
+        "funuuna ykn dhiiguu funyaanii ( nasal bleeding) akkamiin dhaabuu qabnaa?"
+      ],
+      "responses": [
+        "FUNUUNA ykn DHIIGUU FUNYAANII ( nasal bleeding) AKKAMIIN DHAABUU QABNAA? YEROO BAAY'EE MALIRRAA KA'AA? 1. Funyaan keenya quba gudaa fi quba elemtuu gidduutti jabeessinee qabachuudhaan gara lafee jalatti argamuutti gadi dhiibuu. 2. Gara fuulduraatti xiqqoo gadi jechuu. Gara dudduubaatti jechuun dhiigni akka ujummoo nyaataa ykn ujummoo qilleensaa seenu taasisa malee dhiiga dhaabuuf hin gargaaru. 3. Gadi ciisuu dhiisuu. Funyaan keenyaa waan dhiigaa jiruuf sadarkaa onnee olitti ( above heart level ) eeguu qabna. Kanaaf gadi ciisuu dhiifnee taa'uu ykn yoo dadhabne ammo mataa keenya ol qabannee ( 30 to 40 degree above horizontal) ciisuu. 4. Bishaan baay'ee dildllaa'aa ( cabbii yoo arganne gaariidha) fuula fi funyaan keenya irratti naquu. Kunis ujummooleen dhiigaa xixiqqoon akka kottoonfatan waan gargaaruuf. MAALIRRAA KA'AA? Funyaan hiddoota dhiigaa qaqalloo fi baay'ee gara alaatti dhuyaatanii jiran qaba. Kanaafa qaamota kanneen biroo irra dhiiguuf saaxilamaadha. Yeroo baay'ee kan dhiigu sababa goggoguu keessa funyaaniiti. keessumaa waqtii bonaa yeroo qilleensi gogaan jiru. Erga keessi funyaan keenyaa gogee booda harki keenya yoo xiqqoof itti bu'e (fakkeenyaaf yoo fuula dhiqannu), keessaa isaa yoo tuttuqne fi kkf salphumatti dhiiga. Dhiigni sababa kanaan dhiigu salphumatti akka armaan olitti ibsametti dhaababata. Kana irra darbee baay'ee dhiiga taanaan rakkoo biraa kan qaama keessaa ta'uu waan danda'uuf mana yaalaa deemtanii ilaalamuu qabdu."
+      ]
+    },
+    {
+      "tag": "dhukkuba_gurraa",
+      "patterns": ["gurra", "dhukkuba gurraa", "gurrakoo"],
+      "responses": [
+        "FAYYUMMAA GURRA KEENYAA *Gurri dhagahuuf qofa osoo hin taane,madaallii qaama keenyaa eegnee deemuu keessatti gahee guddaa qaba.  *Gurri qaamota haphii kan akka dibbee gurraafi lafewwan xixiqqoo sadi fiixee fiixeedhaan wal qabatan irraa kan ijaarame waan ta'eef salphaadhumatti miidhamuu danda'a. *Sagaleen guddaan, desibilii 85(85dB) olii dandeettii dhagahuu keenyaa gadi buusuu irra darbee hanga duuchuutti geessisuu danda'a. WANTOOTNI SAGALEE DESIBILII 85 OL MADDISIISUU DANDA'AN MAALFA'I? -Sagalee xurumbaa konkolaataa gurguddaa fageenya meetira lamaa fi isaa gaditti -Motora midhaan daaku -Maashinoota dhagaa daakaniifi simintoo walin makan -Mashinoota warshaa gurguddoo -Qawwee meetira sadii fi isaa gaditti nu biraa dhukaasame -Sagalee mobaaylii 'alarm'  -Muuziqaa adda addaa â€˜ear phone' dhaan sagalee ol kaafnee sa'aatii hedduuf dhaggeeffachuu -Mana ragadaa ykn â€˜night club' sagalee guddaadhaan banamuu fi k.k.f OF EEGGANNOO GURRA KEENYAAF GOCHUU QABNU 1.Wantoota sagalee decibilii 85 ol maddisiisan armaan olitti ibsaman irraa fagaachuu ykn sababa hojiitiif itti saaxilamna yoo ta'e ammoo sagalee xiqqeessituu( ear plug) godhachuun murteessaadha. 2.Bishaan yeroo daaknu akka bishaan gurratti hin seenneef â€˜ear band' kan jedhamu fayyadamuu 3.Yeroo qaama dhiqannus akkasuma â€˜ear plug' fayyadamuu 4.Yeroo rafnu â€˜earplug' godhachuudhaan ilbiisotni adda addaa akka gurra keenya hin seenne gochuu 5.Ilbiisotas ta'e waan adda addaa akka tasaa gurra keenyatti yoo galan ofii baasuudhaaf yaaluun dibbee guyyaa miidhuu waan danda'uuf mana yaalaa deemuun baasisuun murteessaadha 6.Wantoota qara qabaniin gurra keenya qulqulleeffachuu irraa of qusachuu, sababni isaa dibbeen gurraa keenya haphii waan ta'eef salphaadhumatti tarsa'uu danda'a. 7.gurra keenya bishaan itti naqnee qulqulleessuuf yaaluun dogoggoradha.  Madda: American ENT association and wikepedia"
+      ]
+    },
+    {
+      "tag": "dhukkuba_golphaa",
+      "patterns": ["taayifesii", "golfaa", "dhukkuba taayifesii"],
+      "responses": [
+        "DHUKKUBA GOLFAA( TYPHUS)   Dhukkubni golfaa dhukkuba bakteriyaa â€˜ricketsiae'jedhamuun kan dhufu yoo ta'u nama irraa gara namaatti kan daddarbu karaa ciniinnaa injiraanii,tafkii,geergoo fi silmiitini. MAALTU NU SAAXILA? *Walitti baay'atanii jiraachuu fkn mana sirreessaa,kaampii adda addaa,doormii barattootaa,maatii bal'aa *Hiyyummaa MALLATTOOWWAN ISAA: -Dhaqna gubaa akka tasaa jalqabu(abrupt onset of fever) -Mataa bowwoo -Dhaqna caccabsuu(malaise) -Qorra qorra namatti dhagahamuu(chills) -Dhukkubbii maashaalee(myalgia) -Miira hammeessuu fi diddiksuu -Fedhiin nyaataa gadi bu'uu -Yeroo tokko tokko waan akka shifoo ykn finnoo xixiqqaa diimaa gogaa harkaa fi miila irratti bahuu.(fakkii armaan gadii ilaali) -Osoo hin yaalamiin yoo ture,gara sammuutti tamsa'uudhaan of wallaalchisuu, gaggabsuu fi hanga lubbuu dabarsuutti gahuu danda'a. HUB: Mallattooleen armaan oliitti tuqaman mallattoo dhukkuba biraas ta'uu waan malaniif laboratorii dhiigaatiin adda baasuun barbaachisaadha. YAALIIN ISAA MAALI? -Hatattamaan qorichoota dhukkuba kanaaf kennaman kan akka â€˜doxycycline,chloramphenicol,tetracycline' guyyaa 7 hanga 10 yoo fudhatan guutummaa guutuutti fayyuu danda'a."
+      ]
+    },
+    {
+      "tag": "dhukkuba_tb",
+      "patterns": [
+        "dhukkuba daranyoo sombaa",
+        "dhukkuba tiibii",
+        "dhukkuba tb",
+        "tb"
+      ],
+      "responses": [
+        "DHUKKUBA DARANYOO SOMBAA(TUBERKULOSISII): TB ======================== 1.DARANYOON SOMBAA MAALI? Daranyoon sombaa dhukkuba baakteriyaa maaykrobaktreem tuberkulosis jedhamuun dhufudha. Saala lamaanuu umurii kamiyyuu miidhuu danda'a. keessumaa sababa adda addaatiin namoota dandeettiin dhukkuba ofirraa ittisuu isaanii laafe (fkn nama dhukkuba HIV dhukkubsatu) akka salphaatti hubuu danda'a. 2.AKKAMIIN NAMATTI DARBA? Namni dhukkuba daranyoo sombaatiin sombi isaa tuqame,wayita qufa'u,haxxiffatuufi dubbatu baakteriyaa kana gara qilleensaatti facaasa. Namni isa bira jiru ammoo baakteriyaa kana hafuura qilleensaa wajjin gara somba isaatti ol-fudhata.  HUB: harka nama fuudhuu,nyaata waliin nyaachuu,uffata ykn meeshaa harkaan tuquutiin hin daddarbu! 3.MALLATTOON ISAAHOO MAALI? Qufaa haqqee bifa boora-daalacha qabu,yeroo tokko tokko immoo dhiiga makate torbee lamaa oliif Dhagna gubaa Galgala yeroo rafan akka malee dafqisiisuu( dafqa halkanii) Fedhiin nyaataa hir'achuu Ulfaatinni qaamaa hir'achuufi.k.k.f Dhukkubbii laphee. Dadhabina ykn bututiinsa qaamaa fi.k.k.f 4.AKKAMIIN OFIRRAA ITTISUUN DANDA'AMA? Maatii keessaa namni dhukkuba kanaan qabame yoo jiraate mana yaalaa geessuun yaalsisuu Namni dhukkuba kanaan qabame yeroo namatti dhiyaatu haguugduu afaanii fi funyaanii godhachuu Bakka namootni baay'atanitti hanga danda'ame qilleensaaf karaa kennuu( fakkeenyaaf foddaa konkolaataa banuu) Qorannoo HIV yeroo yeroon taasisuu fi.k.k.f 5. AKKAMIN YAALUUN DANDA'AMA? Qorannoon( investigation) gaggeeffamee dhukkuba daranyoo sombaa kan agarsiisu yoo ta'e hatattamaan dawaa(qoricha) farra baakteriyaa kanaa eegaluun barbaachisaadha. Qorichi kunis ji'a 6 hanga 8 tti fudhatama HUBADHAA: Dhukkubni daranyoo sombaa dhukkuba hamaa garuu kan qorichaa fi wal'aansa sirrii taheen fayyuu dandahudha."
+      ]
+    },
+    {
+      "tag": "dhukkuba_trachoma",
+      "patterns": ["tiraakoomaa", "dhukkuba ijaa", "dhukkuba tiraakoomaa"],
+      "responses": [
+        "TIRAAKOMAA 1.TIRAAKOMAAN MAALI? *Tiraakomaan dhukkuba ijaa infekshinii bakteriyaa â€˜chlamydia trachomatis' jedhamuun dhufudha. *Infekshinii jaamina ijaa fidan keessaa sadarkaa 1ffaa irratti argama. 2.AKKAMIIN DADDARBA? *Tisiisni dhangala'aa ijaa,funyaaniifi afaan nama dhukkubsatee irraa fuutee gara ija nama fayyaatti dabarsuudhaan. *Dhangala'aa ija,funyaaniifi afaan dhukkubsataa kana irraa xuxxuqqiidhaan yoo gara ija nama fayyaatti darbe *Wayyaa(huccuu) dhangala'aa kanaan faalamerraa gara nama fayyaatti 3.MALLATTOON ISAA MAALI? *Dhukkubni tiraakomaa sadarkaa lama qaba.      A.Sadarkaa 1ffaa(active infection) *Sadarkaan kun ijoollee umuriin waggaa 4 hanga 6 jiran irratti mul'ata. *Yeroo baay'ee mallattoo homaa waan hin agarsiifneef, sakatta'insa ijaa (screening) yeroo yerootti taasisuun barbaachisaadha. *Yeroo tokko tokko garuu mallattoo armaan gadii agarsiisa.-  -Dhangala'aa ijaa - Ijji diimachuu -Baalleen ijaa dhiitahuu -Ifa cimaa ilaaluu dadhabuu(sensitivity to bright light)     B.Sadarkaa 2ffaa(cicatricial disease) *Dhukkubni kun sadarkaa 1ffaatti hatattamaan yoo hin yaalamne yeroo umurii dargaggummaa sadarkaa isa hamaa, gara sadarkaa 2ffaatti guddata. Mallattoowwan isaas:   *Baallee ijaafi rifeensi baallee ijaa gara qaroo ijaatti maxxanuudhaan ija rigu(entropion and trichiasis)   *Erga sadarkaa kanarra gahee carraan jaaminaaf saaxilamuu guddaadha. 4.AKKAMIIN OFIRRAA ITTISUUN DANDA'AMA? *Qulqullina dhuunfaa eeggachuu,keesumaa ijoollee ijji isaanii dhangala'aa addaa qabu guyyaatti yeroo lama saamunaadhaan dhiquu. *Qulqullina naannoo keenyaa eeguu *Haalota walhormaata tisiisaaf tolan dhabamsiisuu *Mana fincaanii fayyadamuu *Yeroo yerootti sakatta'insa fayyaa ijaaf taasisuu 5.AKKAMIIN YAALAMA? *Yaaliin tiraakomaa sadarkaa isaarratti hundaa'uudhaan qorichaan ykn tajaajila baqaqsanii hodhuun ta'uu danda'a.     Fayyaa ija keenyaa haa eeggannu! "
+      ]
+    },
+    {
+      "tag": "dhukkuba_kooleeraa",
+      "patterns": ["kooleeraa", "garaa kaasaa", "balaqqama ariifachiisaa"],
+      "responses": [
+        "GARAA KAASAA FI BALAQQAMA ARIIFACHIISAA(KOLEERAA): AWD *Garaa kaasaa fi balaqqamni ariifachiisaan dhukkuba infeekshinii mar'immaanii baakteriyaa â€˜vibrio  cholerae'jedhamuun dhufudha. *Yeroodhaan yoo hin yaalamiin dhangala'aa qaama keessaa karaa garaa kaasaafi balaqqamaa  fixuudhaan nama sana coolagsee ykn gogsee( dehydration)lubbuu galaafachuu danda'a. AKKAMIIN DADDARBA? *Nyaata ykn bishaan,garaa kaasaa fi balaqqama dhukkubsataa kanaan faalame soorachuun battalumatti nama fayyaa saaxila. MALLATTOON ISAA MAALI? *Garaa kaasaa ariifachiisaa,dhiqaa bishaan ruuzaa fakkaatu( suura gadiiilaali) *Balaqqama ariifachiisaa *Yeroo baay'ee garaa ciniinnaa ykn dhukkubbii hin qabu AKKAMIIN OFIRRAA ITTISUU DANDEENYA? *Harka yeroowwan murteessaa ta'anitti bishaan qulqulluufi saamunaadhaan dhiqachuu *Bishaan qulqullina isaa eeggate ykn waldhaaname fayyadamuu *Kuduraa fi fuduraa bishaan qulqulluu fi bishaan waldhaanameen miicuun battalumatti nyaachuu *Nyaata sirriitti bilcheessuufi osoo hin qabbanaa'iin nyaachuu *Yeroo hunda mana fincaanii fayyadamuu AKKAMIIN YAALAMA? *Mallattoon dhukkubichaa akkuma mul'ateen ariitiidhaan gara buufata fayyaa dhihoo jiru deemuun waldhaanamuun baay'ee murteessaadha.  *Hanga buufata fayyaa gahutti bishaan qulqulluu ykn bishaan waldhaaname sukkaara xiqqoo itti dabaluun obaasuun barbaachisaadha. *Yaaliin isaa baay'ee salphaafi bu'a qabeessadha. *Dhangala'aa qaama keessaa karaa afaaniin( oral rehydration solution) ykn hidda dhiigaatiin bakka buusuun gahaadha.          Erga dubbistanii â€˜like' fi 'share' gochuu hin dagatinaa!"
+      ]
+    },
+    {
+      "tag": "dhukkuba_taayifooyidii",
+      "patterns": ["taayifooyidii", "Dhukkuba taayifooyidii"],
+      "responses": [
+        "Dhibee Taayifooyidii/Typhoid fever  Dhibeen taayifooyidii sababa infeekshinii baakteeriyaa saalmooneellaa taayiphee fi paaraataayiphee jedhamurraa kan namatti dhufudha. Dhibeen kun bal'inaan biyyoota hin guddanne keessatti kan tatamsa'edha. Dhibeen kun  hedduminaan karaa nyaataaf dhugaatii qulqullina hin qabneen namarraa namatti kan daddarbu yoo tahu darbee darbees namoota dhibee kana qaban waliin tuttuuqqii yoo qabaatan kan darbudha.namni dhibee kanaan qabame tokko mana fincaanii dhaqee harkasaa bishaaniif saamunaan yoo hin dhiqatu tahe baakteriyaan sagaraa waliin bahu sun nyaataaf dhugaatii faaluun salphaatti nama tokkorraa gara nama biraatti dabarsuu danda'a. Mallattooleen isaa maali?  ðŸ‘‰Ho'ina qaamaa guyyaadha gara guyyaatti dabalaa deemu ðŸ‘‰Mataa dhukkubbii ðŸ‘‰Miira nama dadhabsiisuu ðŸ‘‰Dhukkubbii maashaa ðŸ‘‰Garaa dhukkubbii ðŸ‘‰Garaa kaasaa ykn gogiinsa garaa ðŸ‘‰Fedhiin nyaataa hir'achuu  ðŸ‘‰Dhukkubbii buusaa lafee ðŸ‘‰Nama hurkisiisuuf kkfdha Kanaaf mallattoowwan akkas akkasii yoo ofirratti argitan mana yaalaa deemuun qorannoo yaalii gochuun barbaachisaadha. Sababnisaas dhibeen taayifooyidii daraan yoo namatti hammaate miidhaawwan akka dhiigii mar'ummaanii ykn dho'uu mar'ummaaniif nu saaxiluu danda'a Kanaaf dhibee kana ofirraa ittisuuf inni guddaan haala ittiin daddarba baakteriyaa kanaa to'achuudha. Kunniinis  -ðŸ•ŠQulqullina nyaataaf dhugaatii keenyaa eeguu -ðŸ•ŠQulqullina meeshaalee itti soorannuu eeguu -ðŸ•ŠYeroo hunda erga mana fincaanii deemnee,nyaata duras nyaata boodas harka keenya bishaaniif saamunaan dhiqachuufadha. -ðŸ•ŠNyaatawwan utuu hin affelamin nyaataman kanneen akka raafuu,salaaxaa qaaraa fi kkf sirriitti miicuun fayyadamuu ykn acheettoo/loomii itti gochuufadha."
+      ]
+    },
+    {
+      "tag": "dhukkuba_saalaan_darban",
+      "patterns": ["dhukkuba saalaan darban", "dhukkuboota saalaan darban"],
+      "responses": [
+        "DHUKKUBA QUNNAMTII SAALAAN DADDARBAN[DhQSD] (SEXUALLY TRANSMITTED INFECTIONS] 1.MAALUMMAA DHUKKUBICHAA- DhQSD, jechuun dhukkuba orgaanizimoota ijaan hin mul'anneen (kan akka baakteeriyaa,vaayirasii,fi paraasayitii) namarraa gara namaatti kan daddarbu yoo ta'u,haalli daddarba isaas akka armaan gadiiti. #qunnamtii saalaan #dhunguudhaan #haadharraa gara daa'ima gadameesa keessa jiruutti fi k.k.f  Dhukkubni kun saala lamaanuu ,umurii kamiyyuu miidhuu ni danda'a.keessumaa namoota umuriin 25 gadii irra caalaatti miidha. Gosoota dhukkubichaa: # madaa qaama saalaa(genital ulcer syndrome) #malaa fiixee tuubboo fincaaniin(urethra) bahuu(urethral discharge syndrome) # dhangala'aa hin baramiin buqushaa keessaa bahuu(vaginal dischargesyndrome) #dhukkubbii handhuuraa gadi(dubartoota keessatti) # dhiitahuu cidhaanii(scrotal swelling) 2.MAALTU NU SAAXILUU DANDA'A? #qunnamtii saalaa of eeggannoo hin qabne taasisuu #hiriyyaa waliin qunnamtii saalaa taasifnu tokkoo ol qabaachuu #hiriyyaa qunnamtii saalaa haaraa(ji'a sadii gadi) #umurii 15-25 #araada adda addaa qabaachuu # dhiira dhaqna hin qabanne 3. MALLATTOON DHUKKUBICHAA MAALI? Mallattoon dhukkubichaa gosoota isaarratti hundaa'uun garaagarummaa qabaatus, akkawalii galaatti kanneen armaan gadiiti #madaahuu naannoo qaama saalaa,dhukkubbii qabaachuus dhabuus nidanda'a #malaa fiixee tuubboo fincaaniin bahuu #yeroo fincaahan ,fincaan nama gubuu #dhiitahuu cidhaanii, dhukkubbii qabaachuus dhabuus danda'a.#dhiitahuu naannoo mudaammuddii,dhukkubbii qabaachuus dhabuus danda'a. # yoeroo tokko tokko oowwinsi qaamaa dabaluu fi.k.k.f 4. AKKAMIIN OFIRRAA ITTISUUN DANDA'AMA? #qunnamtii saalaa fuudhaan dura gochuu dhiisuu,yoo barbaachises seeraankondomii fayyadamuu #hiriyyaa tokko qofaa qabaachuufi waliif amanamanii jiraachuu. #dhaqna qabaa dhiiraa #araada adda adddaarraa of eeguu 5.AKKAMIIN YAALUUN DANDA'AMA? Gosoota isaarratti hudaa'uun yaaliin isaa garaagara ta'us, akka waliigalaatti namni dhukkuba kana qabu tajaajiloota armaan gadii buufata fayyaaykn hospitaala kamirraayyuu argachuu qaba: # antibaayootiksii( qoricha) fudhachuu # gorsa gahaa waa'ee dhukkubichaa #haala itti fayyadama kondoomii # hiriyyaa ofiis yaalsisuu #torbee tokko booda gara buufata sanaattideebi'uu akka qabu gorsa argachuuqaba"
+      ]
+    },
+    {
+      "tag": "dhukkuba_busaa",
+      "patterns": ["busaa", "dhukkuba busaa", "busaan akkamitti nama qabaa"],
+      "responses": [
+        "DHUKKUBA BUSAA(MALARIA) 1.BUSAAN MAALI? *Busaan dhukkuba dhortuu paaraasiytii pilaasmoodiyamii jedhamuun dhufudha.Pilaasmodiyamiin gosa afur tu jira. Isaanis  *pilaasmodiyamii faalsiparamii *pilaasmodiyamii vaayvaaksii *plaasmodiyamii maleeree *plaasmodiyamii oovaalee Biyya keenya keessatti warra jalqabaa lamaantu baay'inaan argama. *Dhaabbanni fayyaa addunyaa(WHO) akka tilmaametti bara 2013 namoonni miliyoona 198 ol ta'an busaadhaan kan qabaman si'a ta'u, kanaan kan ka'esnamoonni 584,000 ta'an du'aniiru. Dhukkubni kun keessumaa ijoolleefi haadhotii ulfaa baay'inaan miidha.Namoota dkukkuba kanaan du'an 5 keessaa gara 4 kan ta'an ijoollee umuriin isaanii waggaa shanii gadi ta'edha. 2.AKKAMIIN NAMA QABA( AKKAMIIN BABAL'ATA)? *Dhortoonni busaa pilaasmodiyamii jedhaman, hidda dhiiga nama tokkoo keessa kan seenan yommuu BOOKEEN BUSAA  dhaltuun ANOOFILAS jedhamtu, kan pilaasmodiyamii kanaan faalamte nama ciniintuttidha. *Dhortooni kun sana booda seelii tiruu nama ciniiname sanaa keessa seenaniiachitti walhoru. *Seeliin tiruus yeroo dho'u dhortoonni sun achi keessaa ba'anii seelota dhiiga diimaa nama ciniiname sanaa weeraru. Iddoo kanatti saffisaan walhoruu isaanii itti fufu.  *Seeliin dhiiga diimaa yommuu dho'u dhortoonni sun ba'anii seelota dhiiga diimaa dabalataa weeraru. *Adeemsi seelii dhiiga diimaa weeraruufi dho'insi kun itti fufa.namni ciniiname sun yommuu seeliin dhiiga diimaa dho'u hundatti mallattoowwan dhukkuba busaa isa irratti mul'atu. 3.MALLATTOON ISAA MAALI? *Dhagna gubaa cimaa,qorrisiisuu, hoollachiisuu(hurgufuu), dafqisiisuu,mataabowwuu,qaama caccabsuu,dhukkubbii maashaalee qaamaa,garaa hammeessuufi hooqqisiisuu, afaan hadheessuu, fedhiin nyaataa gadi bu'uu.Mallattoowwan kun akkuma gosa dhortuu sanaarratti hundaa'uudhaan sa'aatii 48 hanga sa'aatii 72 gidduutti deddeebi'anii mul'achuu danada'u.  4.AKKAMIIN OFIRRAA ITTISUU DANDEENYA?  *Saaphana siree(agobarrii) fayyadamuu  *Qoricha farra ilbiisaa(insecticide) mana keessatti biifamutti fayyadamuu  *Yoo danada'ame balbalaafi foddaa irratti saaphana godhi. Akkasumas bookewwan sun akka hin qubanne gochuuwaan danda'uuf meeshaa qilleensa qabbaneessuufi afarsutti fayyadami. *Uffata adii guutummaatti qaamakee haguugu uffadhu. *Bakka dhooqaa bookeewwan itti qubataniifi bishaan kuufamaa bookeewwan keessatti wal horan akka hin jiraanne godhi. *Bakka busaan dafee dafee itti ka'u deemuuf yaadaa kan jirtu yoota'e,buufata fayyaa deemii qoricha ittiiin ofirraa ittisan(prophylaxis)fudhadhu. *Sagantaa fayyaa hawaasaatti fayyadami. 5.YAALIIN ISAAHOO MAALI? *Yoo dhukkuba kanaan qabamte dafii mana yaalaa deemi, qoricha  farra dhortuu kanaa fudhadhu."
+      ]
+    }
+  ]
+}

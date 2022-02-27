@@ -1,0 +1,328 @@
+2021-10-11 10:24:06,450 INFO    MainThread:16616 [internal.py:wandb_internal():86] W&B internal server running at pid: 16616, started at: 2021-10-11 10:24:06.442286
+2021-10-11 10:24:06,453 INFO    WriterThread:16616 [datastore.py:open_for_write():77] open: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\run-3gjlyrw3.wandb
+2021-10-11 10:24:06,454 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: check_version
+2021-10-11 10:24:06,457 DEBUG   SenderThread:16616 [sender.py:send():185] send: header
+2021-10-11 10:24:06,457 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: check_version
+2021-10-11 10:24:06,959 DEBUG   SenderThread:16616 [sender.py:send():185] send: run
+2021-10-11 10:24:06,976 DEBUG   SenderThread:16616 [git.py:repo():33] git repository is invalid
+2021-10-11 10:24:07,606 INFO    SenderThread:16616 [dir_watcher.py:__init__():169] watching files in: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files
+2021-10-11 10:24:07,606 INFO    SenderThread:16616 [sender.py:_start_run_threads():746] run started: 3gjlyrw3 with start time 1633937043
+2021-10-11 10:24:07,606 DEBUG   SenderThread:16616 [sender.py:send():185] send: summary
+2021-10-11 10:24:07,607 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: run_start
+2021-10-11 10:24:07,617 INFO    SenderThread:16616 [sender.py:_save_file():879] saving file wandb-summary.json with policy end
+2021-10-11 10:24:07,627 DEBUG   HandlerThread:16616 [meta.py:__init__():40] meta init
+2021-10-11 10:24:07,627 DEBUG   HandlerThread:16616 [meta.py:__init__():54] meta init done
+2021-10-11 10:24:07,627 DEBUG   HandlerThread:16616 [meta.py:probe():211] probe
+2021-10-11 10:24:07,633 DEBUG   HandlerThread:16616 [git.py:repo():33] git repository is invalid
+2021-10-11 10:24:07,633 DEBUG   HandlerThread:16616 [meta.py:_save_pip():58] save pip
+2021-10-11 10:24:07,675 DEBUG   HandlerThread:16616 [meta.py:_save_pip():72] save pip done
+2021-10-11 10:24:07,676 DEBUG   HandlerThread:16616 [meta.py:_save_conda():79] save conda
+2021-10-11 10:24:07,686 ERROR   HandlerThread:16616 [meta.py:_save_conda():86] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\meta.py", line 84, in _save_conda
+    subprocess.call(["conda", "env", "export"], stdout=f)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2021-10-11 10:24:07,691 DEBUG   HandlerThread:16616 [meta.py:_save_conda():87] save conda done
+2021-10-11 10:24:07,691 DEBUG   HandlerThread:16616 [meta.py:probe():249] probe done
+2021-10-11 10:24:07,701 DEBUG   SenderThread:16616 [sender.py:send():185] send: files
+2021-10-11 10:24:07,701 INFO    SenderThread:16616 [sender.py:_save_file():879] saving file wandb-metadata.json with policy now
+2021-10-11 10:24:07,720 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:24:07,722 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:24:08,612 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\wandb-summary.json
+2021-10-11 10:24:08,612 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\output.log
+2021-10-11 10:24:08,613 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\requirements.txt
+2021-10-11 10:24:08,613 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\conda-environment.yaml
+2021-10-11 10:24:08,614 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_created():217] file/dir created: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\wandb-metadata.json
+2021-10-11 10:24:08,984 INFO    Thread-15 :16616 [upload_job.py:push():137] Uploaded file C:\Users\GB\AppData\Local\Temp\tmpgnjdcws3wandb\7tafgz2y-wandb-metadata.json
+2021-10-11 10:24:23,286 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:24:23,286 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:24:38,786 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:24:38,787 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:24:39,476 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:24:54,568 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:24:54,568 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:25:10,137 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:25:10,138 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:25:12,519 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:25:25,714 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:25:25,715 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:25:41,370 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:25:41,370 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:25:46,070 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:25:56,977 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:25:56,977 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:26:12,570 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:26:12,571 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:26:19,771 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:26:28,174 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:26:28,174 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:26:43,908 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:26:43,908 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:26:53,502 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:26:59,541 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:26:59,541 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:27:15,163 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:27:15,163 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:27:27,205 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 10:27:30,721 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:27:30,722 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:27:46,291 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 10:27:46,291 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 10:27:59,901 ERROR   SenderThread:16616 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000182C4BA07C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA07C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\internal_api.py", line 132, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA07C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-10-11 10:28:16,871 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:28:19,075 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B8ED30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:28:23,216 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BD9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:28:32,651 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BD9460>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:28:49,220 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BD9EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:29:21,725 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BD9460>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:30:37,942 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B9ED30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:33:15,452 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA52E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:37:56,062 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA52E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:43:36,330 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B93490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:49:05,663 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B93A90>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 10:55:07,913 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B9E580>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 11:00:41,807 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B93580>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 11:07:01,386 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C90640>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 11:12:24,679 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA0E20>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 11:18:55,155 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4BA03D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,335 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,351 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:54,366 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:23:56,705 INFO    Thread-12 :16616 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\report\OgeettiiBot\server\wandb\run-20211011_102402-3gjlyrw3\files\output.log
+2021-10-11 11:23:59,879 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:24:09,456 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 11:24:09,456 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 11:24:25,022 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 11:24:25,022 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 11:24:32,917 DEBUG   SenderThread:16616 [sender.py:send():185] send: stats
+2021-10-11 11:24:40,680 DEBUG   HandlerThread:16616 [handler.py:handle_request():126] handle_request: stop_status
+2021-10-11 11:24:40,680 DEBUG   SenderThread:16616 [sender.py:send_request():199] send_request: stop_status
+2021-10-11 11:25:04,028 ERROR   SenderThread:16616 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connection.py", line 181, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000182C4B930A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B930A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\sdk\internal\internal_api.py", line 132, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\GB\anaconda3\envs\deepLearn\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B930A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2021-10-11 11:25:22,158 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: ('Connection aborted.', TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond', None, 10060, None)). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:25:24,619 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C907F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:25:29,103 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C90A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:25:38,703 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C90A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:25:56,318 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C90370>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:26:32,287 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4C900A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}
+2021-10-11 11:27:46,521 WARNING FileStreamThread:16616 [file_stream.py:request_with_retry():461] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/gamme/chat-bot-project/3gjlyrw3/file_stream (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000182C4B9E8E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')). func: <bound method Session.post of <requests.sessions.Session object at 0x00000182C4B30070>>, args: ('https://api.wandb.ai/files/gamme/chat-bot-project/3gjlyrw3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 107, 'content': ['{"system.cpu": 29.33, "system.memory": 75.98, "system.disk": 46.6, "system.proc.memory.availableMB": 1901.33, "system.proc.memory.rssMB": 37.97, "system.proc.memory.percent": 0.48, "system.proc.cpu.threads": 14.6, "system.network.sent": -14410511, "system.network.recv": -45426492, "_wandb": true, "_timestamp": 1633940672, "_runtime": 3629}']}}, 'dropped': 0}}

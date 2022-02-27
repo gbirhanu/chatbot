@@ -1,0 +1,12 @@
+akkam is stop word
+akkam is stop word
+Traceback (most recent call last):
+  File "train.py", line 35, in <module>
+    all_words = [stem(w) for w in all_words if w not in ignore_words]
+  File "train.py", line 35, in <listcomp>
+    all_words = [stem(w) for w in all_words if w not in ignore_words]
+  File "C:\report\OgeettiiBot\server\nltk_utils.py", line 24, in stem
+    return stemmer(word.lower())
+  File "C:\report\OgeettiiBot\server\stem.py", line 163, in stemmer
+    last_letter = word[len(word) - 1]
+IndexError: string index out of range

@@ -1,0 +1,16 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.8",
+    "heartbeatAt": "2021-10-09T19:48:10.258075",
+    "startedAt": "2021-10-09T19:48:05.006182",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "DESKTOP-JRJVODI",
+    "username": "GB",
+    "executable": "C:\\Users\\GB\\anaconda3\\envs\\deepLearn\\python.exe"
+}

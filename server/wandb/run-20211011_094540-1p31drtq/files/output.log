@@ -1,0 +1,13 @@
+akkam is stop word
+akkam is stop word
+-1
+Traceback (most recent call last):
+  File "train.py", line 35, in <module>
+    all_words = [stem(w) for w in all_words]
+  File "train.py", line 35, in <listcomp>
+    all_words = [stem(w) for w in all_words]
+  File "C:\report\OgeettiiBot\server\nltk_utils.py", line 24, in stem
+    return stemmer(word.lower())
+  File "C:\report\OgeettiiBot\server\stem.py", line 165, in stemmer
+    print(word)
+EOFError
