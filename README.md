@@ -8,7 +8,7 @@
 
 ## Tafary Kababa Tolassa (Co-PI)
 
-## This Research Report is submitted to Research and Publication Director of
+## This Research Report is submitted to the Research and Publication Director of
 
 ## Jimma Institute of Technology, Jimma University
 
