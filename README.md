@@ -1,33 +1,18 @@
-## Report on: OgeettiiBot: Medical Information Assistant bot for Afaan Oromo
-
-## Language
+## Report on: OgeettiiBot: Medical Information Assistant bot for Afaan Oromo Language
 
 ## By
 
-## Gemechu Brihanu Adeba (PI)
+- Gemechu Brihanu Adeba (PI)
 
-## Tafary Kababa Tolassa (Co-PI)
+- Tafary Kababa Tolassa (Co-PI)
 
 ## This Research Report is submitted to the Research and Publication Director of
 
-## Jimma Institute of Technology, Jimma University
-
-## Jimma
-
 ## October, 2021
-
-```
-I
-```
-
-(^) I
 
 # Abstract
 
-The main aim of this research project is to develop a medical information assistant for Afaan
-Oromoo users using a chatbot system. Chatbot system now a day is used for different purposes.
-For example, they are used for flight booking, language learning, online shopping, Computer
-system diagnosis and soon. The chatbot system gives users a natural way of conversation when
+The main aim of this research project is to develop a medical information assistant for Afaan Oromoo users using a chatbot system. Chatbot system now a day is used for different purposes. For example, they are used for flight booking, language learning, online shopping, Computer system diagnosis and soon. The chatbot system gives users a natural way of conversation when
 they use it. They can use Natural language question like “What is the best pesticide?”. Then The
 system understands the question of the user and answers it from its knowledge bases. The
 conversation will go on until user ends the conversation.
@@ -36,100 +21,10 @@ Chatbot system can be rule-based or corpus-based system. The corpus-based approa
 system usually need large data set of user’s real conversation possible conversation. Contrary to
 our initial proposal we have implemented data-based Chat Bot in this work. The rational for this
 change is first we have now a lot of medical information online through the boom of social
-media. There are a lot of medical doctors online who share a lot of information about significant
-amount of diseases. Second using machine learning algorithm conversation can be learnt from
-small amount of data. In this work we have gathered data from known medical online
-conversation, from Oromia health Bureau documents and from medical staff of Jimma university
-through interview. We have created intents from the collected data and the intent pass-through
-different NLP process like: tokenization, stemming and converted to bag of words (BoW). After
-that we have trained pattern to response mapping using simple deep learning network with three
-layers with ReLu activation. The chatbot is evaluated by user and users gives as good feedback.
+media. There are a lot of medical doctors online who share a lot of information about significant amount of diseases. Second using machine learning algorithm conversation can be learnt from small amount of data. In this work we have gathered data from known medical online conversation, from Oromia health Bureau documents and from medical staff of Jimma university through interview. We have created intents from the collected data and the intent pass-through different NLP process like: tokenization, stemming and converted to bag of words (BoW). After
+that we have trained pattern to response mapping using simple deep learning network with three layers with ReLu activation. The chatbot is evaluated by user and users gives as good feedback.
 
-Keyword: Deep Learn, Chatbot, Relu activation, Bag of words
-
-```
-II
-```
-
-(^) II
-
-# Acknowledgement
-
-First of all, I would like to give gratitude Jimma university to give me this opportunity, and fund
-this research so that I can explore application of AI in health sector. During this work I have
-consulted different health professionals, I would like to give them my greatest gratitude for their
-help, suggestion, tipping improvement idea about the application. I also thanks some of my
-colleague in Faculty of computing and informatics to give me valuable comments
-
-```
-III
-```
-
-(^) III
-
-# Table of Contents
-
-....................................................................................................................................................................... I
-Abstract ......................................................................................................................................................... I
-Acknowledgement ...................................................................................................................................... II
-List of table and figure ............................................................................................................................. IV
-Acronyms .................................................................................................................................................... V
-1 Introduction ......................................................................................................................................... 1
-1.1 Background ................................................................................................................................... 1
-1.1.1 Chatbot Components ............................................................................................................. 2
-1.2 Statement of the Problem .............................................................................................................. 3
-2 Objectives of the Project..................................................................................................................... 4
-2.1 General Objectives of the Project ................................................................................................. 4
-2.2 Specific Objectives of the project ................................................................................................. 4
-3 Literature review ................................................................................................................................ 4
-3.1 AI based Conversational agents .................................................................................................... 4
-3.2 Health care Chat bots .................................................................................................................... 5
-4 Methodology ........................................................................................................................................ 6
-4.1 Data Collection and intent creation ............................................................................................... 6
-4.2 OgeettiiBot, Afaan Oromo health assistant chat bot ..................................................................... 6
-4.3 Tokenization ................................................................................................................................. 7
-4.4 Stemming ...................................................................................................................................... 7
-4.5 Bag of word generation ................................................................................................................. 8
-4.6 Training and evaluation ................................................................................................................ 8
-4.6.1 Training ............................................................................................................................... 8
-4.6.2 Evaluation ............................................................................................................................ 9
-5 Result and discussion .......................................................................................................................... 9
-6 Conclusion and Recommendations .................................................................................................. 11
-References .................................................................................................................................................. 12
-
-```
-IV
-```
-
-(^) IV
-
-# List of table and figure
-
-Figure 1OgeettiiBot architecture ................................................................................................................... 7
-Figure 2 Accuracy and loss curve of the training ......................................................................................... 9
-Figure 3 Ogeettii bot User interfaces .......................................................................................................... 10
-
-Table 1 training configuration ...................................................................................................................... 8
-
-```
-V
-```
-
-(^) V
-
-# Acronyms
-
-BoW --------------------------------------------------------- Bag of word
-
-NLU ----------------------------------------------------------- Natural language understanding
-
-NLP ----------------------------------------------------------- Natural language processing
-
-IR ------------------------------------------------------------- Information retrieval
-
-AI ------------------------------------------------------------- Artificial intelligence
-
-ReLu --------------------------------------------------------- Rectified Linear Unit
+Keyword: **Deep Learn**, **Chatbot**, **_Relu_ activation**, **Bag of words**
 
 # 1 Introduction
 
